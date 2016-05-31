@@ -79,7 +79,13 @@
       </edition>
 
       <translation urn="urn:cts:greekLit:tlg0012.tlg001.persEng:" xml:lang="eng">
-        <label xml:lang="eng">Furman/Perseus Text, based on Butler's Translation</label>
+        <label xml:lang="eng">Perseus Text, based on Butler's Translation</label>
+        <description xml:lang="eng">An edition based on the Perseus XML text.</description>
+        <online/>
+      </translation>
+      
+      <translation urn="urn:cts:greekLit:tlg0012.tlg001.fuEng:" xml:lang="eng">
+        <label xml:lang="eng">Furman/Perseus Text, based on Butler's Translation, aligned to Allen's canonical citations.</label>
         <description xml:lang="eng">An edition based on the Perseus XML text.</description>
         <online/>
       </translation>
