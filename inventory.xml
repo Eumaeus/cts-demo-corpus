@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="schemas/cts/TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TextInventory tiid="hmt" tiversion="5.0.rc.1" xmlns="http://chs.harvard.edu/xmlns/cts"
+<TextInventory tiid="hmt" tiversion="6.0.0" xmlns="http://chs.harvard.edu/xmlns/cts"
   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <ctsnamespace abbr="greekLit" ns="http://chs.harvard.edu/ctsns/greekLit">
     <description xml:lang="eng"> The &quot;First Thousand Years of Greek&quot; project's inventory
@@ -17,18 +17,20 @@
       <title xml:lang="eng">Aeneid</title>
       <edition urn="urn:cts:latinLit:phi0690.phi003.fuPers:">
         <label xml:lang="eng">Furman/Perseus Text, based on Greenough</label>
-        <description xml:lang="eng">Virgil. Aeneid. An edition based on the Perseus XML text.</description>
+        <description xml:lang="eng">Virgil. Aeneid. An edition based on the Perseus XML
+          text.</description>
         <online/>
       </edition>
-      
-      
+
+
       <translation urn="urn:cts:latinLit:phi0690.phi003.alignedEng:" xml:lang="eng">
         <label xml:lang="eng">Virgil. Aeneid. T. Williams, trans. (1910), aligned to Greenough’s Latin.</label>
-        <description xml:lang="eng">Virgil. Aeneid. T. Williams, trans. (1910), aligned to Greenough’s Latin.</description>
+        <description xml:lang="eng">Virgil. Aeneid. T. Williams, trans. (1910), aligned to
+          Greenough’s Latin.</description>
         <online/>
       </translation>
-      
-      
+
+
     </work>
   </textgroup>
 
@@ -36,13 +38,13 @@
     <groupname xml:lang="eng">Claudius Ptolemy</groupname>
     <work urn="urn:cts:greekLit:tlg0363.tlg009:" xml:lang="grc">
       <title xml:lang="eng">Geography</title>
-      
+
       <edition urn="urn:cts:greekLit:tlg0363.tlg009.hc01:">
         <label xml:lang="eng">Smith</label>
         <description xml:lang="eng">Electronic edition created by Neel Smith</description>
         <online/>
       </edition>
-      
+
     </work>
   </textgroup>
 
@@ -50,13 +52,18 @@
     <groupname xml:lang="eng">Plutarch</groupname>
     <work urn="urn:cts:greekLit:tlg0007.tlg012:" xml:lang="grc">
       <title xml:lang="eng">Pericles</title>
-      
+
       <edition urn="urn:cts:greekLit:tlg0007.tlg012.ziegler:">
         <label xml:lang="eng">Ziegler, ed.</label>
         <description xml:lang="eng">Ziegler, ed.</description>
         <online/>
+        <exemplar urn="urn:cts:greekLit:tlg0007.tlg012.ziegler.syntaxToken:">
+          <label xml:lang="eng">Syntax Tokens</label>
+          <description xml:lang="eng">Syntactically Significant Tokens</description>
+        <online/>
+        </exemplar>
       </edition>
-      
+
     </work>
   </textgroup>
 
@@ -64,26 +71,35 @@
     <groupname xml:lang="eng">Homer</groupname>
     <work urn="urn:cts:greekLit:tlg0012.tlg001:" xml:lang="grc">
       <title xml:lang="eng">Iliad</title>
-      
+
       <edition urn="urn:cts:greekLit:tlg0012.tlg001.fuPers:">
         <label xml:lang="eng">Furman/Perseus Text, based on Allen</label>
         <description xml:lang="eng">An edition based on the Perseus XML text.</description>
         <online/>
-        
-       <!-- <exemplar urn="urn:cts:greekLit:tlg0012.tlg001.fuPers.wt:">
-          <label xml:lang="eng">Furman/Perseus Text, based on Allen, tokenized for syntax</label>
-          <description xml:lang="eng">An edition based on the Perseus XML text, syntactically siginificant tokens (words + punctuation) citable..</description>
-          <online/>
-        </exemplar>-->
+        <exemplar urn="urn:cts:greekLit:tlg0012.tlg001.fuPers.syntaxToken:">
+          <label xml:lang="eng">Tokenization for Syntax</label>
+          <description xml:lang="eng">Syntactically Significant Tokens</description>
+        </exemplar>
+      </edition>
+
+      <edition urn="urn:cts:greekLit:tlg0012.tlg001.msAtest:">
+        <label xml:lang="eng">Venetus A 24.1-24.15. Demonstrationg thoughts on graphs.</label>
+        <description xml:lang="eng">Edited by Gunner Hedden and Marloes Velthuisen</description>
+        <online/>
         
       </edition>
+
+
+
+
+
 
       <translation urn="urn:cts:greekLit:tlg0012.tlg001.persEng:" xml:lang="eng">
         <label xml:lang="eng">Perseus Text, based on Butler's Translation</label>
         <description xml:lang="eng">An edition based on the Perseus XML text.</description>
         <online/>
       </translation>
-      
+
       <translation urn="urn:cts:greekLit:tlg0012.tlg001.fuEng:" xml:lang="eng">
         <label xml:lang="eng">Furman/Perseus Text, based on Butler's Translation, aligned to Allen's canonical citations.</label>
         <description xml:lang="eng">An edition based on the Perseus XML text.</description>
@@ -92,29 +108,53 @@
 
     </work>
   </textgroup>
-  
+
   <textgroup urn="urn:cts:greekLit:tlg0016:">
     <groupname xml:lang="eng">Herodotus</groupname>
     <work urn="urn:cts:greekLit:tlg0016.tlg001:" xml:lang="grc">
       <title xml:lang="eng">Histories</title>
       <edition urn="urn:cts:greekLit:tlg0016.tlg001.grc:">
         <label xml:lang="eng">A digital edition based on that of Ph.E. Legrand</label>
-        <description xml:lang="eng">S. LaBerge and C. Blackwell, collated against Ph.E. Legrand, ed. He/rodote. Histoires (Paris: Les Belles Lettres) and C. Hude, ed., Herodoti Historiae (Oxford).</description>
-       <online/>
-        
+        <description xml:lang="eng">S. LaBerge and C. Blackwell, collated against Ph.E. Legrand, ed.
+          He/rodote. Histoires (Paris: Les Belles Lettres) and C. Hude, ed., Herodoti Historiae
+          (Oxford).</description>
+        <online/>
+        <exemplar urn="urn:cts:greekLit:tlg0016.tlg001.grc.syntaxToken:">
+          <label xml:lang="eng">Syntax Tokens</label>
+          <description xml:lang="eng">Syntactically Significant Tokens</description>
+          <online/>
+        </exemplar>
       </edition>
       <translation xml:lang="eng" urn="urn:cts:greekLit:tlg0016.tlg001.eng:">
         <label xml:lang="eng">G. C. Macaulay, third edition (1914).</label>
-        <description xml:lang="eng">This text was prepared by Ross Scaife from the translation by G. C. Macaulay, third edition,
-          printed in 1914, by MacMillan and Co., Limited, St. Martin's Street,
-          London.</description>
+        <description xml:lang="eng">This text was prepared by Ross Scaife from the translation by G.
+          C. Macaulay, third edition, printed in 1914, by MacMillan and Co., Limited, St. Martin's
+          Street, London.</description>
         <online/>
-        
       </translation>
-     
-      
+
+
     </work>
   </textgroup>
 
+  <textgroup urn="urn:cts:greekLit:tlg5026:">
+    <groupname xml:lang="eng">Scholia to the Iliad</groupname>
+
+    <work urn="urn:cts:greekLit:tlg5026.msA:" xml:lang="grc">
+      <title xml:lang="eng">Main marginal scholia</title>
+      <edition urn="urn:cts:greekLit:tlg5026.msA.hmt:">
+        <label xml:lang="eng">msA</label>
+        <description xml:lang="eng">Main marginal scholia of the Venetus A manuscript, Marciana 454
+          (=822).</description>
+        <online/>
+      </edition>
+      <translation xml:lang="eng" urn="urn:cts:greekLit:tlg5026.msA.hmtEng:">
+        <label xml:lang="eng">msA-english</label>
+        <description xml:lang="eng">Main marginal scholia of the Venetus A manuscript, Marciana 454
+          (=822). English translation.</description>
+        <online/>
+      </translation>
+    </work>
+  </textgroup>
 
 </TextInventory>
