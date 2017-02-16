@@ -3,8 +3,9 @@
 <!-- On-line configuration for inventory in testinventory2.xml -->
 <CitationConfiguration xmlns="http://chs.harvard.edu/xmlns/hocuspocus"  tiversion="6.0.0">
 
+  
 
-    <online urn="urn:cts:greekLit:tlg0007.tlg012.ziegler:" type="xml"
+      <online urn="urn:cts:greekLit:tlg0007.tlg012.ziegler:" type="xml"
         docname="LifeofPericlesZiegler.xml">
 
         <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
@@ -16,15 +17,17 @@
         </citationMapping>
     </online>
     
-    <online urn="urn:cts:greekLit:tlg0007.tlg012.ziegler.syntaxToken:" type="2col" docname="CTS-2col-0007_0012_ziegler.txt" nodeformat="text">
+    <online urn="urn:cts:greekLit:tlg0007.tlg012.ziegler.syntaxToken:" type="2col" docname="CTS2Col-SynTokExemplar-greekLit_tlg0007-tlg012-ziegler.txt" nodeformat="text">
         <citationScheme>
-            <citation label="chapter">
-                <citation label="section">
-                    <citation label="token"></citation>
+            <citation label="Chapter">
+                <citation label="Section">
+                    <citation label="Token"></citation>
                 </citation>
             </citation>
         </citationScheme>
     </online>
+    
+   
 
     <online urn="urn:cts:greekLit:tlg0016.tlg001.grc:" type="xml" docname="fu-hdt-grc.xml">
         
@@ -37,15 +40,7 @@
         </citationMapping>
     </online>
 
- <online urn="urn:cts:greekLit:tlg0016.tlg001.grc.syntaxToken:" type="2col" docname="CTS-2col-0016_0001_perseus.txt" nodeformat="text">
-        <citationScheme>
-            <citation label="chapter">
-                <citation label="section">
-                    <citation label="token"></citation>
-                </citation>
-            </citation>
-        </citationScheme>
-    </online>
+
 
         <online type="xml" urn="urn:cts:greekLit:tlg0363.tlg009.hc01:" docname="ptolemy-geo-hc.xml">
         <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
@@ -71,38 +66,14 @@
         </citationMapping>
     </online>
  
-  
-    <online urn="urn:cts:greekLit:tlg0012.tlg001.fuPers.syntaxToken:" type="2col" docname="CTS-2col-0012_0001_allen.txt" nodeformat="text">
+    <online urn="urn:cts:greekLit:tlg0012.tlg001.fuPers.syntaxToken:" type="2col" docname="CTS2Col-SynTokExemplar-greekLit_tlg0012-tlg001-fuPers.txt" nodeformat="text">
         <citationScheme>
-            <citation label="book">
-                <citation label="line">
-                    <citation label="token"></citation>
-                </citation>
-            </citation>
+            <citation label="Book"><citation label="Line"><citation label="Token"></citation></citation></citation>
         </citationScheme>
-    </online>
+    </online> 
     
-    <!--
-    <online urn="urn:cts:greekLit:tlg0012.tlg001.graphDemo:" type="xml" docname="VenetusA-Iliad-24-demo.xml">
-        <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-        <citationMapping>
-            <citation label="Book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']">
-                <citation label="Line" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']"
-                    xpath="/tei:l[@n='?']"/>
-            </citation>
-        </citationMapping>
-    </online>
-    
-    <online urn="urn:cts:greekLit:tlg0012.tlg001.graphDemo.st:" type="xml" docname="VenetusA-Iliad-24-demo-tokenized.xml">
-        <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
-        <citationMapping>
-            <citation label="Book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']">
-                <citation label="Line" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']" xpath="/tei:l[@n='?']">
-                    <citation label="Token" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']/tei:l[@n='?']" xpath="/tei:w[@n='?']"></citation>
-                </citation>
-            </citation>
-        </citationMapping>
-    </online> -->
+  
+  
     
   
     <online urn="urn:cts:greekLit:tlg0012.tlg001.persEng:" type="xml" docname="Iliad-Butler.xml">
@@ -136,6 +107,12 @@
                     xpath="/tei:div[@type='chapter' and @n='?']"/>
             </citation>
         </citationMapping>
+    </online> 
+    
+    <online urn="urn:cts:greekLit:tlg0016.tlg001.grc.syntaxToken:" type="2col" docname="CTS2Col-SynTokExemplar-greekLit_tlg0016-tlg001-grc.txt" nodeformat="text">
+        <citationScheme>
+           <citation label="Book"><citation label="Chapter"><citation label="Token"></citation></citation></citation>
+        </citationScheme>
     </online>
 
     <online type="xml" urn="urn:cts:greekLit:tlg5026.msA.hmt:"
@@ -184,5 +161,28 @@
         </citationMapping>
     </online>
     
+    
+    
+    <!--
+    <online urn="urn:cts:greekLit:tlg0012.tlg001.graphDemo:" type="xml" docname="VenetusA-Iliad-24-demo.xml">
+        <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+        <citationMapping>
+            <citation label="Book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']">
+                <citation label="Line" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']"
+                    xpath="/tei:l[@n='?']"/>
+            </citation>
+        </citationMapping>
+    </online>
+    
+    <online urn="urn:cts:greekLit:tlg0012.tlg001.graphDemo.st:" type="xml" docname="VenetusA-Iliad-24-demo-tokenized.xml">
+        <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+        <citationMapping>
+            <citation label="Book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']">
+                <citation label="Line" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']" xpath="/tei:l[@n='?']">
+                    <citation label="Token" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']/tei:l[@n='?']" xpath="/tei:w[@n='?']"></citation>
+                </citation>
+            </citation>
+        </citationMapping>
+    </online> -->
 
 </CitationConfiguration>

@@ -17,16 +17,14 @@
       <title xml:lang="eng">Aeneid</title>
       <edition urn="urn:cts:latinLit:phi0690.phi003.fuPers:">
         <label xml:lang="eng">Furman/Perseus Text, based on Greenough</label>
-        <description xml:lang="eng">Virgil. Aeneid. An edition based on the Perseus XML
-          text.</description>
+        <description xml:lang="eng">Virgil. Aeneid. An edition based on the Perseus XML text.</description>
         <online/>
       </edition>
 
 
       <translation urn="urn:cts:latinLit:phi0690.phi003.alignedEng:" xml:lang="eng">
         <label xml:lang="eng">Virgil. Aeneid. T. Williams, trans. (1910), aligned to Greenough’s Latin.</label>
-        <description xml:lang="eng">Virgil. Aeneid. T. Williams, trans. (1910), aligned to
-          Greenough’s Latin.</description>
+        <description xml:lang="eng">Virgil. Aeneid. T. Williams, trans. (1910), aligned to Greenough’s Latin.</description>
         <online/>
       </translation>
 
@@ -57,11 +55,14 @@
         <label xml:lang="eng">Ziegler, ed.</label>
         <description xml:lang="eng">Ziegler, ed.</description>
         <online/>
+        <!--  entries created by SyntaxTokenizer -->
         <exemplar urn="urn:cts:greekLit:tlg0007.tlg012.ziegler.syntaxToken:">
           <label xml:lang="eng">Syntax Tokens</label>
           <description xml:lang="eng">Syntactically Significant Tokens</description>
-        <online/>
+          <online/>
         </exemplar>
+        
+        <!-- END  entries created by SyntaxTokenizer -->
       </edition>
 
     </work>
@@ -76,10 +77,14 @@
         <label xml:lang="eng">Furman/Perseus Text, based on Allen</label>
         <description xml:lang="eng">An edition based on the Perseus XML text.</description>
         <online/>
+        <!--  entries created by SyntaxTokenizer -->
+        
         <exemplar urn="urn:cts:greekLit:tlg0012.tlg001.fuPers.syntaxToken:">
-          <label xml:lang="eng">Tokenization for Syntax</label>
+          <label xml:lang="eng">Syntax Tokens</label>
           <description xml:lang="eng">Syntactically Significant Tokens</description>
+          <online/>
         </exemplar>
+        <!-- END  entries created by SyntaxTokenizer -->
       </edition>
 
       <edition urn="urn:cts:greekLit:tlg0012.tlg001.msAtest:">
@@ -115,21 +120,20 @@
       <title xml:lang="eng">Histories</title>
       <edition urn="urn:cts:greekLit:tlg0016.tlg001.grc:">
         <label xml:lang="eng">A digital edition based on that of Ph.E. Legrand</label>
-        <description xml:lang="eng">S. LaBerge and C. Blackwell, collated against Ph.E. Legrand, ed.
-          He/rodote. Histoires (Paris: Les Belles Lettres) and C. Hude, ed., Herodoti Historiae
-          (Oxford).</description>
+        <description xml:lang="eng">S. LaBerge and C. Blackwell, collated against Ph.E. Legrand, ed. He/rodote. Histoires (Paris: Les Belles Lettres) and C. Hude, ed., Herodoti Historiae (Oxford).</description>
         <online/>
+        <!--  entries created by SyntaxTokenizer -->
         <exemplar urn="urn:cts:greekLit:tlg0016.tlg001.grc.syntaxToken:">
           <label xml:lang="eng">Syntax Tokens</label>
           <description xml:lang="eng">Syntactically Significant Tokens</description>
           <online/>
         </exemplar>
+        
+        <!-- END  entries created by SyntaxTokenizer -->
       </edition>
       <translation xml:lang="eng" urn="urn:cts:greekLit:tlg0016.tlg001.eng:">
         <label xml:lang="eng">G. C. Macaulay, third edition (1914).</label>
-        <description xml:lang="eng">This text was prepared by Ross Scaife from the translation by G.
-          C. Macaulay, third edition, printed in 1914, by MacMillan and Co., Limited, St. Martin's
-          Street, London.</description>
+        <description xml:lang="eng">This text was prepared by Ross Scaife from the translation by G. C. Macaulay, third edition, printed in 1914, by MacMillan and Co., Limited, St. Martin's Street, London.</description>
         <online/>
       </translation>
 
@@ -144,14 +148,12 @@
       <title xml:lang="eng">Main marginal scholia</title>
       <edition urn="urn:cts:greekLit:tlg5026.msA.hmt:">
         <label xml:lang="eng">msA</label>
-        <description xml:lang="eng">Main marginal scholia of the Venetus A manuscript, Marciana 454
-          (=822).</description>
+        <description xml:lang="eng">Main marginal scholia of the Venetus A manuscript, Marciana 454 (=822).</description>
         <online/>
       </edition>
       <translation xml:lang="eng" urn="urn:cts:greekLit:tlg5026.msA.hmtEng:">
         <label xml:lang="eng">msA-english</label>
-        <description xml:lang="eng">Main marginal scholia of the Venetus A manuscript, Marciana 454
-          (=822). English translation.</description>
+        <description xml:lang="eng">Main marginal scholia of the Venetus A manuscript, Marciana 454  (=822). English translation.</description>
         <online/>
       </translation>
     </work>

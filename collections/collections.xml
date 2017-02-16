@@ -22,9 +22,7 @@
         <creator xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
         <coverage xmlns="http://purl.org/dc/elements/1.1/">A CITE/ORCA tokenization and analysis of Iliad 24.3-24.11.</coverage>
         <description xmlns="http://purl.org/dc/elements/1.1/">A CITE/ORCA tokenization and analysis of Iliad 24.3-24.11.</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License, http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <orderedBy property="Sequence"/>
         <source type="file" value="orca-syntax.tsv"/>
         <citeProperty label="Analysis Record" type="cite2urn" name="AnalysisRecord"></citeProperty>
@@ -35,16 +33,14 @@
         <citeProperty label="Exemplar URN" name="ExemplarUrn" type="ctsurn"></citeProperty>
     </citeCollection>
 
-    <citeCollection canonicalId="urn" label="label" urn="urn:cite2:fufolio:pos.v1:">
+    <citeCollection canonicalId="urn" label="label" urn="urn:cite2:fufolio:partsOfSpeech.v1">
         <namespaceMapping abbr="fufolio" uri="http://folio.furman.edu/datans"/>
         <dc:title xmlns="http://purl.org/dc/elements/1.1/">Parts of Speech</dc:title>
         <creator xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
         <coverage xmlns="http://purl.org/dc/elements/1.1/">Parts of speech documented in syntactic analysis of the Iliad of the Venetus A.</coverage>
         <description xmlns="http://purl.org/dc/elements/1.1/">Parts of speech documented in syntactic analysis of the Iliad of the Venetus A.</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="pos-collection.tsv"/>
+        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source type="file" value="partsOfSpeech.tsv"/>
         <citeProperty label="urn" type="cite2urn" name="urn"></citeProperty>
         <citeProperty label="pos-tag" type="string" name="string"></citeProperty>
         <citeProperty label="label" type="string" name="label"></citeProperty>
@@ -56,10 +52,8 @@
         <creator xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
         <coverage xmlns="http://purl.org/dc/elements/1.1/">Attested syntactic relations in the Iliad of the Venetus A.</coverage>
         <description xmlns="http://purl.org/dc/elements/1.1/">Attested syntactic relations in the Iliad of the Venetus A.</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="relations.tsv"/>
+        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available  under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License, http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source type="file" value="syntaxRelations.tsv"/>
         <citeProperty label="urn" type="cite2urn" name="urn"></citeProperty>
         <citeProperty label="label" type="string" name="label"></citeProperty>
     </citeCollection>
@@ -71,9 +65,7 @@
         <creator xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
         <coverage xmlns="http://purl.org/dc/elements/1.1/">Graphs of syntax from Greek texts.</coverage>
         <description xmlns="http://purl.org/dc/elements/1.1/">Graphs of syntax from Greek texts.</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License, http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <source type="file" value="syntax-graphs.tsv"/>
         <citeProperty label="urn" type="cite2urn" name="urn"></citeProperty>
         <citeProperty label="label" type="string" name="label"></citeProperty>
@@ -87,31 +79,14 @@
         <creator xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
         <coverage xmlns="http://purl.org/dc/elements/1.1/">Graphs of Image-based digital scholarly editions of texts and commentaries.</coverage>
         <description xmlns="http://purl.org/dc/elements/1.1/">Graphs of Image-based digital scholarly editions of texts and commentaries</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <source type="file" value="dse-graphs.tsv"/>
         <citeProperty label="urn" type="cite2urn" name="urn"></citeProperty>
         <citeProperty label="label" type="string" name="label"></citeProperty>
         <citeProperty label="description" type="string" name="description"></citeProperty>
     </citeCollection>
     
-    <citeCollection canonicalId="urn" label="label" urn="urn:cite2:fufolio:iliadSyntax.v1:">
-        <namespaceMapping abbr="fufolio" uri="http://folio.furman.edu/datans"/>
-        <dc:title xmlns="http://purl.org/dc/elements/1.1/">Syntax Tokens</dc:title>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
-        <coverage xmlns="http://purl.org/dc/elements/1.1/">Analyzed syntactical tokens from the Iliad of the Venetus A.</coverage>
-        <description xmlns="http://purl.org/dc/elements/1.1/">Analyzed syntactical tokens from the Iliad of the Venetus A.</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="syntax-tokens.tsv"/>
-        <citeProperty label="urn" type="cite2urn" name="urn"></citeProperty>
-        <citeProperty label="label" type="string" name="label"></citeProperty>
-        <citeProperty label="lemma" type="string" name="lemma"></citeProperty>
-        <citeProperty label="part of speech" type="cite2urn" name="posUrn"></citeProperty>
-        <citeProperty label="analysis urn" type="cite2urn" name="analysisUrn"></citeProperty>
-    </citeCollection>
+   
     
 
    
@@ -129,9 +104,7 @@
         <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
         <coverage xmlns="http://purl.org/dc/elements/1.1/">All images from the Homer Multitext project's photography of the Venetus A manuscript.</coverage>
         <description xmlns="http://purl.org/dc/elements/1.1/"> Photography of the Venetus A manuscript by the Homer Multitext project.</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <source type="file" value="vaimgs.csv"/>
 
         <citeProperty name="Image" label="Image URN" type="cite2urn"/>
@@ -150,9 +123,7 @@
         <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
         <coverage xmlns="http://purl.org/dc/elements/1.1/">All images from the Homer Multitext project's photography of the Venetus A manuscript.</coverage>
         <description xmlns="http://purl.org/dc/elements/1.1/"> Photography of the Venetus A manuscript by the Homer Multitext project.</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <source type="file" value="pageRois-abbrev.csv"/>
         
         <citeProperty name="PageZone" label="A region of interest on an image" type="cite2urn"></citeProperty>
@@ -178,9 +149,7 @@
         <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
         <coverage xmlns="http://purl.org/dc/elements/1.1/">All images from the Homer Multitext project's photography of the Venetus A manuscript.</coverage>
         <description xmlns="http://purl.org/dc/elements/1.1/"> Photography of the Venetus A manuscript by the Homer Multitext project. Includes 'v1' and 'v2' versions of each object, for testing CITE Collections.</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License, http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         
         <orderedBy property="Sequence"/>
         <source type="file" value="venAsigns.tsv"/>
@@ -207,9 +176,7 @@
         <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
        
         <description xmlns="http://purl.org/dc/elements/1.1/">Folios of the Venetus A manuscript.</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License, http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         
         <orderedBy property="Sequence"/>
         <source type="file" value="venetusA-v1.tsv"/>
@@ -226,49 +193,17 @@
     
     <!-- Categorized Token Collections -->
    
-    <!-- Syntax tokens from Ziegler's ed. of Plutarch's Life of Pericles -->
-    <citeCollection canonicalId="Urn" label="TextDeformation" urn="urn:cite2:fufolio:syntaxToken0007_0012.v1:">
+    <!--  entries created by SyntaxTokenizer -->
+    <!-- Syntax tokens from urn:cts:greekLit:tlg0007.tlg012.ziegler: -->
+    <citeCollection canonicalId="Urn" label="TextDeformation" urn="urn:cite2:fufolio:PlutPericles_SyntaxTokens.v1:">
         <namespaceMapping abbr="fufolio" uri="http://folio.furman.edu/datans"/>
         
-        <dc:title xmlns="http://purl.org/dc/elements/1.1/">Ziegler, Plut. Life of Pericles, Syntax tokenization</dc:title>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
-        
-        <description xmlns="http://purl.org/dc/elements/1.1/">Ziegler, Plut. Life of Pericles, Syntax tokenization with categorized tokens</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <dc:title xmlns="http://purl.org/dc/elements/1.1/">Syntax tokenization of urn:cts:greekLit:tlg0007.tlg012.ziegler:</dc:title>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Syntax tokenization with categorized tokens, analyzed from urn:cts:greekLit:tlg0007.tlg012.ziegler:</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available  http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         
         <orderedBy property="Sequence"/>
-        <source type="file" value="TokenCollection-0007_0012_ziegler.tsv"/>
-        
-        <citeProperty name="Urn" label="The URN for this token" type="cite2urn"></citeProperty>
-        <citeProperty name="AnalyzedText" label="CTS Urn with string alignment" type="ctsurn"></citeProperty>
-        <citeProperty name="TokenType" label="Token type" type="cite2urn"></citeProperty>
-        <citeProperty name="TextDeformation" label="Presentational String" type="string"></citeProperty>
-        <citeProperty name="EditorialStatus" label="Editorial Status" type="cite2urn"/>
-        <citeProperty name="DiscourseLevel" label="Discourse Level" type="cite2urn"/>
-        <citeProperty name="Sequence" label="Recto or Verso" type="number"></citeProperty>
-        <citeProperty name="ExemplarUrn" label="CTS Urn for derived analytical exemplar" type="ctsurn"></citeProperty>
-        
-        
-    </citeCollection>
-    
-    <!-- Syntax tokens from Herodotus -->
-    <citeCollection canonicalId="Urn" label="TextDeformation" urn="urn:cite2:fufolio:syntaxToken0016_0001.v1:">
-        <namespaceMapping abbr="fufolio" uri="http://folio.furman.edu/datans"/>
-        
-        <dc:title xmlns="http://purl.org/dc/elements/1.1/">Ziegler, Plut. Life of Pericles, Syntax tokenization</dc:title>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
-        
-        <description xmlns="http://purl.org/dc/elements/1.1/">Herodotus, Syntax tokenization with categorized tokens</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        
-        <orderedBy property="Sequence"/>
-        <source type="file" value="TokenCollection-0016_0001_perseus.tsv"/>
+        <source type="file" value="TokenCollection-greekLit_tlg0007-tlg012-ziegler.tsv"/>
         
         <citeProperty name="Urn" label="The URN for this token" type="cite2urn"></citeProperty>
         <citeProperty name="AnalyzedText" label="CTS Urn with string alignment" type="ctsurn"></citeProperty>
@@ -281,21 +216,38 @@
         
     </citeCollection>
     
-    <!-- Syntax tokens from Allen's Iliad -->
-    <citeCollection canonicalId="Urn" label="TextDeformation" urn="urn:cite2:fufolio:syntaxToken0012_0001.v1:">
+    <!-- ORCA alignment of Syntax tokens (urn:cite2:fufolio:PlutPericles_SyntaxTokens.v1:) with urn:cts:greekLit:tlg0007.tlg012.ziegler: -->
+    <citeCollection canonicalId="ORCA_URN" label="TextDeformation" urn="urn:cite2:fufolio:PlutPericles_SyntaxTokens_ORCA.v1:">
         <namespaceMapping abbr="fufolio" uri="http://folio.furman.edu/datans"/>
+        <extendedBy extension="cite:ORCA"/>
         
-        <dc:title xmlns="http://purl.org/dc/elements/1.1/">Allen, Iliad, Syntax tokenization</dc:title>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <dc:title xmlns="http://purl.org/dc/elements/1.1/">ORCA Alignment of  urn:cite2:fufolio:PlutPericles_SyntaxTokens.v1: with urn:cts:greekLit:tlg0007.tlg012.ziegler: </dc:title>
         
-        <description xmlns="http://purl.org/dc/elements/1.1/">Allen, Iliad, Syntax tokenization with categorized tokens</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <description xmlns="http://purl.org/dc/elements/1.1/">ORCA Alignment of Syntax tokens urn:cite2:fufolio:PlutPericles_SyntaxTokens.v1: with urn:cts:greekLit:tlg0007.tlg012.ziegler:</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available  http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         
         <orderedBy property="Sequence"/>
-        <source type="file" value="TokenCollection-0012_0001_allen.tsv"/>
+        <source type="file" value="ORCA-greekLit_tlg0007-tlg012-ziegler.tsv"/>
+        
+        <citeProperty name="ORCA_URN" label="The URN for this token" type="cite2urn"></citeProperty>
+        <citeProperty name="AnalyzedText" label="CTS Urn with string alignment" type="ctsurn"></citeProperty>
+        <citeProperty name="Analysis" label="Token Type" type="cite2urn"></citeProperty>
+        <citeProperty name="TextDeformation" label="Presentational String" type="string"></citeProperty>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="ExemplarUrn" label="CTS Urn for derived analytical exemplar" type="ctsurn"></citeProperty>
+        
+    </citeCollection>
+    
+    <!-- Syntax tokens from urn:cts:greekLit:tlg0012.tlg001.fuPers: -->
+    <citeCollection canonicalId="Urn" label="TextDeformation" urn="urn:cite2:fufolio:AllenIliad_SyntaxTokens.v1:">
+        <namespaceMapping abbr="fufolio" uri="http://folio.furman.edu/datans"/>
+        
+        <dc:title xmlns="http://purl.org/dc/elements/1.1/">Syntax tokenization of urn:cts:greekLit:tlg0012.tlg001.fuPers:</dc:title>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Syntax tokenization with categorized tokens, analyzed from urn:cts:greekLit:tlg0012.tlg001.fuPers:</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available  http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        
+        <orderedBy property="Sequence"/>
+        <source type="file" value="TokenCollection-greekLit_tlg0012-tlg001-fuPers.tsv"/>
         
         <citeProperty name="Urn" label="The URN for this token" type="cite2urn"></citeProperty>
         <citeProperty name="AnalyzedText" label="CTS Urn with string alignment" type="ctsurn"></citeProperty>
@@ -308,24 +260,18 @@
         
     </citeCollection>
     
-    <!-- ORCA!!! -->
-    
-    <!-- ORCA aligning tokens from Ziegler's ed. of Plutarch's Life of Pericles -->
-    <citeCollection canonicalId="ORCA_URN" label="TextDeformation" urn="urn:cite2:fufolio:orcaPlutPer.v1:">
+    <!-- ORCA alignment of Syntax tokens (urn:cite2:fufolio:AllenIliad_SyntaxTokens.v1:) with urn:cts:greekLit:tlg0012.tlg001.fuPers: -->
+    <citeCollection canonicalId="ORCA_URN" label="TextDeformation" urn="urn:cite2:fufolio:AllenIliad_SyntaxTokens_ORCA.v1:">
         <namespaceMapping abbr="fufolio" uri="http://folio.furman.edu/datans"/>
-        
         <extendedBy extension="cite:ORCA"/>
-        <dc:title xmlns="http://purl.org/dc/elements/1.1/">ORCA Alignment of Ziegler, Plut. Life of Pericles, Syntax tokenization</dc:title>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
         
-        <description xmlns="http://purl.org/dc/elements/1.1/">ORCA Alignment of Ziegler, Plut. Life of Pericles, Syntax tokenization</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <dc:title xmlns="http://purl.org/dc/elements/1.1/">ORCA Alignment of  urn:cite2:fufolio:AllenIliad_SyntaxTokens.v1: with urn:cts:greekLit:tlg0012.tlg001.fuPers: </dc:title>
+        
+        <description xmlns="http://purl.org/dc/elements/1.1/">ORCA Alignment of Syntax tokens urn:cite2:fufolio:AllenIliad_SyntaxTokens.v1: with urn:cts:greekLit:tlg0012.tlg001.fuPers:</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available  under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,  http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         
         <orderedBy property="Sequence"/>
-        <source type="file" value="Orca_0007_0012_ziegler.tsv"/>
+        <source type="file" value="ORCA-greekLit_tlg0012-tlg001-fuPers.tsv"/>
         
         <citeProperty name="ORCA_URN" label="The URN for this token" type="cite2urn"></citeProperty>
         <citeProperty name="AnalyzedText" label="CTS Urn with string alignment" type="ctsurn"></citeProperty>
@@ -336,21 +282,42 @@
         
     </citeCollection>
     
-    <!-- ORCA aligning tokens from Herodotus -->
-      <citeCollection canonicalId="ORCA_URN" label="TextDeformation" urn="urn:cite2:fufolio:orcaHdt.v1:">
+    
+    <!-- Syntax tokens from urn:cts:greekLit:tlg0016.tlg001.grc: -->
+    <citeCollection canonicalId="Urn" label="TextDeformation" urn="urn:cite2:fufolio:Hdt_SyntaxTokens.v1:">
         <namespaceMapping abbr="fufolio" uri="http://folio.furman.edu/datans"/>
-        <extendedBy extension="cite:ORCA"/>
-        <dc:title xmlns="http://purl.org/dc/elements/1.1/">ORCA Alignment of Herodotus, Syntax tokenization</dc:title>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
         
-        <description xmlns="http://purl.org/dc/elements/1.1/">ORCA Alignment of a Syntax tokenization of Herodotus</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <dc:title xmlns="http://purl.org/dc/elements/1.1/">Syntax tokenization of urn:cts:greekLit:tlg0016.tlg001.grc:</dc:title>
+        <description xmlns="http://purl.org/dc/elements/1.1/">Syntax tokenization with categorized tokens, analyzed from urn:cts:greekLit:tlg0016.tlg001.grc:</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available  under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License, http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         
         <orderedBy property="Sequence"/>
-          <source type="file" value="Orca_0016_0001_perseus.tsv"/>
+        <source type="file" value="TokenCollection-greekLit_tlg0016-tlg001-grc.tsv"/>
+        
+        <citeProperty name="Urn" label="The URN for this token" type="cite2urn"></citeProperty>
+        <citeProperty name="AnalyzedText" label="CTS Urn with string alignment" type="ctsurn"></citeProperty>
+        <citeProperty name="TokenType" label="Token type" type="cite2urn"></citeProperty>
+        <citeProperty name="TextDeformation" label="Presentational String" type="string"></citeProperty>
+        <citeProperty name="EditorialStatus" label="Editorial Status" type="cite2urn"/>
+        <citeProperty name="DiscourseLevel" label="Discourse Level" type="cite2urn"/>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="ExemplarUrn" label="CTS Urn for derived analytical exemplar" type="ctsurn"></citeProperty>
+        
+    </citeCollection>
+    
+    
+    <!-- ORCA alignment of Syntax tokens (urn:cite2:fufolio:Hdt_SyntaxTokens.v1:) with urn:cts:greekLit:tlg0016.tlg001.grc: -->
+    <citeCollection canonicalId="ORCA_URN" label="TextDeformation" urn="urn:cite2:fufolio:Hdt_SyntaxTokens_ORCA.v1:">
+        <namespaceMapping abbr="fufolio" uri="http://folio.furman.edu/datans"/>
+        <extendedBy extension="cite:ORCA"/>
+        
+        <dc:title xmlns="http://purl.org/dc/elements/1.1/">ORCA Alignment of  urn:cite2:fufolio:Hdt_SyntaxTokens.v1: with urn:cts:greekLit:tlg0016.tlg001.grc: </dc:title>
+        
+        <description xmlns="http://purl.org/dc/elements/1.1/">ORCA Alignment of Syntax tokens urn:cite2:fufolio:Hdt_SyntaxTokens.v1: with urn:cts:greekLit:tlg0016.tlg001.grc:</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License, http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        
+        <orderedBy property="Sequence"/>
+        <source type="file" value="ORCA-greekLit_tlg0016-tlg001-grc.tsv"/>
         
         <citeProperty name="ORCA_URN" label="The URN for this token" type="cite2urn"></citeProperty>
         <citeProperty name="AnalyzedText" label="CTS Urn with string alignment" type="ctsurn"></citeProperty>
@@ -361,31 +328,8 @@
         
     </citeCollection>
     
-    <!-- ORCA aligning tokens from Herodotus -->
-    <citeCollection canonicalId="ORCA_URN" label="TextDeformation" urn="urn:cite2:fufolio:orcaAllenIliad.v1:">
-        <namespaceMapping abbr="fufolio" uri="http://folio.furman.edu/datans"/>
-        <extendedBy extension="cite:ORCA"/>
-        <dc:title xmlns="http://purl.org/dc/elements/1.1/">ORCA Alignment of Allen's Iliad, Syntax tokenization</dc:title>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
-        
-        <description xmlns="http://purl.org/dc/elements/1.1/">ORCA Alignment of a Syntax tokenization of Allen's Iliad</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        
-        <orderedBy property="Sequence"/>
-        <source type="file" value="Orca_0012_0001_allen.tsv"/>
-        
-        <citeProperty name="ORCA_URN" label="The URN for this token" type="cite2urn"></citeProperty>
-        <citeProperty name="AnalyzedText" label="CTS Urn with string alignment" type="ctsurn"></citeProperty>
-        <citeProperty name="Analysis" label="Token Type" type="cite2urn"></citeProperty>
-        <citeProperty name="TextDeformation" label="Presentational String" type="string"></citeProperty>
-        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
-        <citeProperty name="ExemplarUrn" label="CTS Urn for derived analytical exemplar" type="ctsurn"></citeProperty>
-        
-    </citeCollection>
     
+    <!-- END  entries created by SyntaxTokenizer -->
     
 
 </collectionService>
