@@ -1,4 +1,6 @@
 urn	label	description
-urn:cite:fufolio:syntax.1000.v1	Syntax of Iliad 24.3-24.11	The syntax of Iliad 24.3-24.11, following Aristarchus' athetesis of 24.5-24.9 (see scholion on Venetus A 311 recto).
-urn:cite:fufolio:syntax.1001.v1	Syntax of Iliad 24.3-24.11	The syntax of Iliad 24.3-24.11, the 'incorrect' syntax, according to Nicanor.
-urn:cite:fufolio:syntax.1002.v1	Syntax of Iliad 24.3-24.11	The syntax of Iliad 24.3-24.11, Nicanor's reading and punctuation.
+urn:cite2:fufolio:hmtGraph.v1:Iliad16a	Iliad 16.83-16.87 (a)	One of two reading of Iliad 16.83-16.87 suggested by the A Scholia.
+urn:cite2:fufolio:hmtGraph.v1:Iliad16b	Iliad 16.83-16.87 (a)	One of two reading of Iliad 16.83-16.87 suggested by the A Scholia.
+urn:cite2:fufolio:hmtGraph.v1:IliadAristarchus	Iliad 24.3-24.11 (after Aristarchus)	The syntax of Iliad 24.3-24.11, following Aristarchus' athetesis of 24.5-24.9 (see scholion on Venetus A 311 recto).
+urn:cite2:fufolio:hmtGraph.v1:Iliad24Default	Iliad 24.3-24.11 (default)	The syntax of Iliad 24.3-24.11, the 'incorrect' syntax, according to Nicanor.
+urn:cite2:fufolio:hmtGraph.v1:Iliad24Nicanor	Iliad 24.3-24.11 (after Nicanor)	The syntax of Iliad 24.3-24.11, Nicanor's reading and punctuation.

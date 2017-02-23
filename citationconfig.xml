@@ -3,7 +3,15 @@
 <!-- On-line configuration for inventory in testinventory2.xml -->
 <CitationConfiguration xmlns="http://chs.harvard.edu/xmlns/hocuspocus"  tiversion="6.0.0">
 
-  
+    <online urn="urn:cts:greekLit:tlg0008.tlg001.berti:" type="2col" docname="Athenaeus.txt" nodeformat="text">
+        <citationScheme>
+            <citation label="Book">
+                <citation label="Section">
+                    
+                </citation>
+            </citation>
+        </citationScheme>
+    </online>
 
       <online urn="urn:cts:greekLit:tlg0007.tlg012.ziegler:" type="xml"
         docname="LifeofPericlesZiegler.xml">

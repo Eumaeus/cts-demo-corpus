@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei-scholia.css"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Venetus A Main Scholia (Excerpt, Book 24, 311v</title>
+                <editor>Gunner Hedden</editor>
+                <editor>Marloes Velthuisen</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Unpublished edition of the Venetus A manuscript for the Homer Multitext
+                    project</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Edited directly from photography of the manuscript</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div n="24">
+                <div n="A2" type="scholion">
+                    <div type="lemma" n="lemma">
+                        <p>πατρόκλου ποθέων:</p>
+                    </div>
+                    <div type="ref">
+                        <p>urn:cts:greekLit:tlg0012.tlg001.msA:24.6-24.10</p>
+                    </div>
+                    <div type="comment" n="comment">
+                        <p>ἕως τῶν μιμνησκόμενος άθετοῦνται στίχοι δ' ὅτι εὐτελής ἔισι ἀρθεντων δὲ
+                            αὐτων καὶ ἐμφαντικώτερον δηλοῦται ἡ τοῦ ἀχιλέως λύπη. <q>
+                                <l>ἀλλ' εστρέφετ' ἔνθα καὶ ἔνθα</l>
+                                <l>ἄλλοτ' ἐπι πλευράς</l>
+                            </q> καὶ τοῖς αὐτοῖς καταγίνεται ἀνδροτῆτα καὶ "μενος" οὐδὲν γὰρ
+                            διαφερει καὶ οὐδεποτ' "ἀνδροτητ`" εἴρηκε τήν "ἀνδρείαν" ἀλλ' "ἡνορέαν".
+                            εἴχε καὶ τὸ δυσεξείληπτον <q>τῶν μιμνησκόμενος</q> καὶ γὰρ ἄνω εἴρηκεν
+                            ἑταίρου μεμνημένος προηθετοῦντο δὲ καὶ παρα αριστοφανει ταυτα δὲ ἤτοι
+                            συναπτέον τοῖς ἄνω ἵν' ἦι κοινὸν τὸ ποθέων <sic>ἡ</sic> ἀφ' ετερας ἀρχῆς
+                            ἀναγνωστεον ἵνα ὑποστείζωμεν ἐπι τὸ κύματα πείρων⁑ </p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

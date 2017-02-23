@@ -45,7 +45,22 @@
 
     </work>
   </textgroup>
-
+  
+  
+  <textgroup urn="urn:cts:greekLit:tlg0008:">
+    
+    <groupname xml:lang="eng">Athenaeus</groupname>
+    <work urn="urn:cts:greekLit:tlg0008.tlg001:" xml:lang="grc">
+      <title xml:lang="lat">Deipnosophistae</title>
+      <edition urn="urn:cts:greekLit:tlg0008.tlg001.berti:">
+        <label xml:lang="eng">M. Berti, ed.</label>
+        <description xml:lang="eng">Digital edition by M. Berti, after Kaibel.</description>
+        <online/>
+      </edition>
+    </work>
+  </textgroup>
+  
+  
   <textgroup urn="urn:cts:greekLit:tlg0007:">
     <groupname xml:lang="eng">Plutarch</groupname>
     <work urn="urn:cts:greekLit:tlg0007.tlg012:" xml:lang="grc">
@@ -93,11 +108,6 @@
         <online/>
         
       </edition>
-
-
-
-
-
 
       <translation urn="urn:cts:greekLit:tlg0012.tlg001.persEng:" xml:lang="eng">
         <label xml:lang="eng">Perseus Text, based on Butler's Translation</label>
