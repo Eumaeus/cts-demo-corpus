@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/cts/CitationConfiguration.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- On-line configuration for inventory in testinventory2.xml -->
+<CitationConfiguration xmlns="http://chs.harvard.edu/xmlns/hocuspocus"  tiversion="6.0.0">
+
+    <online urn="urn:cts:croala:kunicr.epigr.croala_ohco2:" type="2col" docname="2col/kunic.txt" nodeformat="text">
+        <citationScheme>
+            <citation label="Book">
+                <citation label="Poem">
+                    <citation label="Line"></citation>
+                </citation>
+            </citation>
+            <citation label="Book">
+                <citation label="Section"></citation>
+            </citation>
+        </citationScheme>
+    </online>
+    
+    <online urn="urn:cts:greekLit:tlg0007.tlg012.perrin:" docname="2col/pericles-eng.txt" nodeformat="text" type="2col">
+        <citationScheme>
+            <citation label="Section">
+                <citation label="Subsection"/>
+            </citation>
+        </citationScheme>
+    </online>
+    
+    <online urn="urn:cts:croala:flacius.clavis.croala_ohco2:" type="2col" docname="2col/flaciux.txt" nodeformat="text">
+        <citationScheme>
+            
+            <citation label="Section">
+                <citation label="Section">
+                    <citation label="Section"></citation>
+                </citation>
+            </citation>
+            <citation label="Section">
+                <citation label="Section">
+                    <citation label="Section">
+                        <citation label="Section"></citation>
+                    </citation>
+                </citation>
+            </citation>
+            <citation label="Section">
+                <citation label="Section">
+                    <citation label="Section">
+                        <citation label="Section">
+                            <citation label="Section"></citation>
+                        </citation>
+                    </citation>
+                </citation>
+            </citation>
+            <citation label="Section">
+                <citation label="Section">
+                    <citation label="Section">
+                        <citation label="Section">
+                            <citation label="Section">
+                                <citation label="Section"></citation>
+                            </citation>
+                        </citation>
+                    </citation>
+                </citation>
+            </citation>
+            <citation label="Section">
+                <citation label="Section">
+                    <citation label="Section">
+                        <citation label="Section">
+                            <citation label="Section">
+                                <citation label="Section">
+                                    <citation label="Section"></citation>
+                                </citation>
+                            </citation>
+                        </citation>
+                    </citation>
+                </citation>
+            </citation>
+        </citationScheme>
+    </online>
+    
+    <online urn="urn:cts:croala:krcelic.ann.croala_ohco2:" type="2col" docname="2col/krcelic.txt" nodeformat="text">
+        <citationScheme>
+            <citation label="Section"></citation>
+            <citation label="Section">
+                <citation label="Section"></citation>
+            </citation>
+            <citation label="Section">
+                <citation label="Section">
+                    <citation label="Section"></citation>
+                </citation>
+            </citation>
+            <citation label="Section">
+                <citation label="Section">
+                    <citation label="Section">
+                        <citation label="Section"></citation>
+                    </citation>
+                </citation>
+            </citation>
+            <citation label="Section">
+                <citation label="Section">
+                    <citation label="Section">
+                        <citation label="Section">
+                            <citation label="Section"></citation>
+                        </citation>
+                    </citation>
+                </citation>
+            </citation>
+        </citationScheme>
+    </online>
+
+    <online urn="urn:cts:croala:kunicr.ilias.croala_ohco2:" docname="2col/Kunićilias.txt" nodeformat="text" type="2col">
+        <citationScheme>
+            <citation label="Book">
+                <citation label="Line"></citation>
+            </citation>
+            <citation label="Book">
+                <citation label="Catalogue">
+                    <citation label="Line"></citation>
+                </citation>
+            </citation>
+        </citationScheme>
+    </online>
+  
+
+      <online urn="urn:cts:greekLit:tlg0007.tlg012.ziegler:" type="xml"
+        docname="LifeofPericlesZiegler.xml">
+
+        <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+        <citationMapping>
+            <citation label="Chapter" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']">
+                <citation label="Section" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']/tei:p"
+                    xpath="/tei:seg[@n='?']"/>
+            </citation>
+        </citationMapping>
+    </online>
+    
+  
+   
+
+    <online urn="urn:cts:greekLit:tlg0016.tlg001.loebgrc:" type="xml" docname="fu-hdt-grc.xml">
+        
+        <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+        <citationMapping>
+            <citation label="Book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@type='book' and @n='?']">
+                <citation label="Chapter" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='book' and @n='?']"
+                    xpath="/tei:div[@type='chapter' and @n='?']"/>
+            </citation>
+        </citationMapping>
+    </online>
+
+
+
+   
+
+    <online urn="urn:cts:greekLit:tlg0012.tlg001.fuPers:" type="xml" docname="Iliad-Allen.xml">
+        <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+        <citationMapping>
+            <citation label="Book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']">
+                <citation label="Line" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']"
+                    xpath="/tei:l[@n='?']"/>
+            </citation>
+        </citationMapping>
+    </online>
+ 
+  
+    
+    <online urn="urn:cts:latinLit:phi0690.phi003.fuPers:" type="xml" docname="Aeneid-Lat.xml">
+        
+        <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+        <citationMapping>
+            <citation label="Book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']">
+                <citation label="Line" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']" xpath="/tei:l[@n='?']"/>
+            </citation>
+        </citationMapping>
+    </online>
+    
+  
+    
+    <online urn="urn:cts:greekLit:tlg0016.tlg001.loebeng:" type="xml" docname="fu-hdt-eng.xml">
+        
+        <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+        <citationMapping>
+            <citation label="Book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@type='book' and @n='?']">
+                <citation label="Chapter" scope="/tei:TEI/tei:text/tei:body/tei:div[@type='book' and @n='?']"
+                    xpath="/tei:div[@type='chapter' and @n='?']"/>
+            </citation>
+        </citationMapping>
+    </online> 
+    
+  
+
+</CitationConfiguration>

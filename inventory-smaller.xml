@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/cts/TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TextInventory tiid="hmt" tiversion="6.0.0" xmlns="http://chs.harvard.edu/xmlns/cts"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <ctsnamespace abbr="greekLit" ns="http://chs.harvard.edu/ctsns/greekLit">
+    <description xml:lang="eng"> The &quot;First Thousand Years of Greek&quot; project's inventory
+      of Greek texts. </description>
+  </ctsnamespace>
+  <ctsnamespace abbr="latinLit" ns="http://perseus.org/namespaces/cts/latinLit">
+    <description xml:lang="eng">Latin texts hosted by the Perseus Digital Library</description>
+  </ctsnamespace>
+  <ctsnamespace abbr="croala" ns="http://www.ffzg.unizg.hr/klafil/croala">
+    <description xml:lang="lat">Croatiae auctores Latini (CroALa) Collectio electronica</description>
+  </ctsnamespace>
+  
+  <!-- CroALa Texts -->
+  
+  <textgroup urn="urn:cts:croala:kunicr:">
+    <groupname xml:lang="lat">Kunić, Rajmund</groupname>
+    <work urn="urn:cts:croala:kunicr.epigr:" xml:lang="lat">
+      <title xml:lang="lat">Epigrammata</title>
+      <edition urn="urn:cts:croala:kunicr.epigr.croala_ohco2:">
+        <label xml:lang="lat">Latin. CroALa: Curavit Neven Jovanović.</label>
+        <description xml:lang="lat">Latin. Hanc editionem electronicam curavit Neven Jovanović. CroALa 2010. Modified and distributed under the terms of the CC BY-NC-SA 3.0 HR licence.</description>
+        <online/>
+      </edition>
+    </work>
+    <work urn="urn:cts:croala:kunicr.ilias:" xml:lang="lat">
+      <title xml:lang="lat">Homeri Ilias, Latinis versibus expressa</title>
+      <edition urn="urn:cts:croala:kunicr.ilias.croala_ohco2:">
+        <label xml:lang="lat">Latin. CroALa: Curavit Neven Jovanović.</label>        
+        <description xml:lang="lat">Latin. Hanc editionem electronicam curavit Neven Jovanović. CroALa 2013.  Modified and distributed under the terms of the CC BY-NC-SA 3.0 HR licence.</description>
+        <online/>
+      </edition>
+    </work>
+  </textgroup>
+  
+  <textgroup urn="urn:cts:croala:krcelic:">
+    <groupname xml:lang="lat">Krčelić, Baltazar Adam</groupname>
+    <work urn="urn:cts:croala:krcelic.ann:" xml:lang="lat">
+      <title xml:lang="lat">Annuae 1748-1767, cum Additamentis</title>
+      <edition urn="urn:cts:croala:krcelic.ann.croala_ohco2:">
+        <label xml:lang="lat">Latin. CroALa: Curavit Neven Jovanović.</label>        
+        <description xml:lang="lat">Latin. Hanc editionem electronicam curavit Neven Jovanović, et correxerunt Ema Bakran, Mateja Bišćan, Tomislav Đurić, Jelena Huzanić, Ivana Kovaček, &amp; Ana Mihaljević. CroALa 2012.</description>
+        <online/>
+      </edition>
+    </work>
+  </textgroup>
+  
+  <textgroup urn="urn:cts:croala:flacius:">
+    <groupname xml:lang="lat">Vlačić Ilirik, Matija (Flacius)</groupname>
+    <work urn="urn:cts:croala:flacius.clavis:" xml:lang="lat">
+      <title xml:lang="lat">Clavis scripturae sacrae</title>
+      <edition urn="urn:cts:croala:flacius.clavis.croala_ohco2:">
+        <label xml:lang="lat">Latin. CroALa: Curavit Neven Jovanović.</label>        
+        <description xml:lang="lat">Latin. Hanc editionem electronicam curavit Neven Jovanović. CroALa 2012.</description>
+        <online/>
+      </edition>
+    </work>
+  </textgroup>
+  
+  <!-- End CroALa Texts -->
+
+
+  <textgroup urn="urn:cts:latinLit:phi0690:">
+    <groupname xml:lang="eng">P. Virgilius Maro</groupname>
+    <work urn="urn:cts:latinLit:phi0690.phi003:" xml:lang="lat">
+      <title xml:lang="eng">Aeneid</title>
+      <edition urn="urn:cts:latinLit:phi0690.phi003.fuPers:">
+        <label xml:lang="eng">Furman/Perseus Text, based on Greenough</label>
+        <description xml:lang="eng">Virgil. Aeneid. An edition based on the Perseus XML text.</description>
+        <online/>
+      </edition>
+
+
+      <translation urn="urn:cts:latinLit:phi0690.phi003.alignedEng:" xml:lang="eng">
+        <label xml:lang="eng">Virgil. Aeneid. T. Williams, trans. (1910), aligned to Greenough’s Latin.</label>
+        <description xml:lang="eng">Virgil. Aeneid. T. Williams, trans. (1910), aligned to Greenough’s Latin.</description>
+        <online/>
+      </translation>
+
+
+    </work>
+  </textgroup>
+
+  <textgroup urn="urn:cts:greekLit:tlg0007:">
+    <groupname xml:lang="eng">Plutarch</groupname>
+    <work urn="urn:cts:greekLit:tlg0007.tlg012:" xml:lang="grc">
+      <title xml:lang="eng">Pericles</title>
+
+      <edition urn="urn:cts:greekLit:tlg0007.tlg012.ziegler:">
+        <label xml:lang="eng">Ziegler, ed.</label>
+        <description xml:lang="eng">Ziegler, ed.</description>
+        <online/>
+       
+      </edition>
+      <translation urn="urn:cts:greekLit:tlg0007.tlg012.perrin:" xml:lang="eng">
+        <label xml:lang="eng">English. Perrin</label>
+        <description xml:lang="eng">English. Perrin, trans [1916].  Text from The Perseus Digital Library. Creative Commons Attribution 3.0 License</description>
+        <online/>
+      </translation>
+
+    </work>
+  </textgroup>
+
+  <textgroup urn="urn:cts:greekLit:tlg0012:">
+    <groupname xml:lang="eng">Homer</groupname>
+    <work urn="urn:cts:greekLit:tlg0012.tlg001:" xml:lang="grc">
+      <title xml:lang="eng">Iliad</title>
+
+      <edition urn="urn:cts:greekLit:tlg0012.tlg001.fuPers:">
+        <label xml:lang="eng">Furman/Perseus Text, based on Allen</label>
+        <description xml:lang="eng">An edition based on the Perseus XML text.</description>
+        <online/>
+     
+      </edition>
+
+   
+
+      <translation urn="urn:cts:greekLit:tlg0012.tlg001.fuEng:" xml:lang="eng">
+        <label xml:lang="eng">Furman/Perseus Text, based on Butler's Translation, aligned to Allen's canonical citations.</label>
+        <description xml:lang="eng">An edition based on the Perseus XML text.</description>
+        <online/>
+      </translation>
+
+    </work>
+  </textgroup>
+
+  <textgroup urn="urn:cts:greekLit:tlg0016:">
+    <groupname xml:lang="eng">Herodotus</groupname>
+    <work urn="urn:cts:greekLit:tlg0016.tlg001:" xml:lang="grc">
+      <title xml:lang="eng">Histories</title>
+      <edition urn="urn:cts:greekLit:tlg0016.tlg001.loebgrc:">
+        <label xml:lang="eng">A digital edition based on that of Ph.E. Legrand</label>
+        <description xml:lang="eng">S. LaBerge and C. Blackwell, collated against Ph.E. Legrand, ed. He/rodote. Histoires (Paris: Les Belles Lettres) and C. Hude, ed., Herodoti Historiae (Oxford).</description>
+        <online/>
+      
+      </edition>
+      <translation xml:lang="eng" urn="urn:cts:greekLit:tlg0016.tlg001.loebeng:">
+        <label xml:lang="eng">G. C. Macaulay, third edition (1914).</label>
+        <description xml:lang="eng">This text was prepared by Ross Scaife from the translation by G. C. Macaulay, third edition, printed in 1914, by MacMillan and Co., Limited, St. Martin's Street, London.</description>
+        <online/>
+      </translation>
+
+
+    </work>
+  </textgroup>
+
+ 
+
+</TextInventory>
