@@ -9,6 +9,59 @@
   <ctsnamespace abbr="latinLit" ns="http://perseus.org/namespaces/cts/latinLit">
     <description xml:lang="eng">Latin texts hosted by the Perseus Digital Library</description>
   </ctsnamespace>
+  <ctsnamespace abbr="croala" ns="http://www.ffzg.unizg.hr/klafil/croala">
+    <description xml:lang="lat">Croatiae auctores Latini (CroALa) Collectio electronica</description>
+  </ctsnamespace>
+  
+  <!-- CroALa Texts -->
+  
+  <textgroup urn="urn:cts:croala:kunicr:">
+    <groupname xml:lang="lat">Kunić, Rajmund</groupname>
+    <work urn="urn:cts:croala:kunicr.epigr:" xml:lang="lat">
+      <title xml:lang="lat">Epigrammata</title>
+      <edition urn="urn:cts:croala:kunicr.epigr.croala_ohco2:">
+        <label xml:lang="lat">Latin. CroALa: Curavit Neven Jovanović.</label>
+        <description xml:lang="lat">Latin. Hanc editionem electronicam curavit Neven Jovanović. CroALa 2010. Modified and distributed under the terms of the CC BY-NC-SA 3.0 HR licence.</description>
+        <online/>
+      </edition>
+    </work>
+    <work urn="urn:cts:croala:kunicr.ilias:" xml:lang="lat">
+      <title xml:lang="lat">Homeri Ilias, Latinis versibus expressa</title>
+      <edition urn="urn:cts:croala:kunicr.ilias.croala_ohco2:">
+        <label xml:lang="lat">Latin. CroALa: Curavit Neven Jovanović.</label>        
+        <description xml:lang="lat">Latin. Hanc editionem electronicam curavit Neven Jovanović. CroALa 2013.  Modified and distributed under the terms of the CC BY-NC-SA 3.0 HR licence.</description>
+        <online/>
+      </edition>
+    </work>
+  </textgroup>
+  
+  <textgroup urn="urn:cts:croala:krcelic:">
+    <groupname xml:lang="lat">Krčelić, Baltazar Adam</groupname>
+    <work urn="urn:cts:croala:krcelic.ann:" xml:lang="lat">
+      <title xml:lang="lat">Annuae 1748-1767, cum Additamentis</title>
+      <edition urn="urn:cts:croala:krcelic.ann.croala_ohco2:">
+        <label xml:lang="lat">Latin. CroALa: Curavit Neven Jovanović.</label>        
+        <description xml:lang="lat">Latin. Hanc editionem electronicam curavit Neven Jovanović, et correxerunt Ema Bakran, Mateja Bišćan, Tomislav Đurić, Jelena Huzanić, Ivana Kovaček, &amp; Ana Mihaljević. CroALa 2012.  Modified and distributed under the terms of the CC BY-NC-SA 3.0 HR licence.</description>
+        <online/>
+      </edition>
+    </work>
+  </textgroup>
+  
+  <textgroup urn="urn:cts:croala:flacius:">
+    <groupname xml:lang="lat">Vlačić Ilirik, Matija (Flacius)</groupname>
+    <work urn="urn:cts:croala:flacius.clavis:" xml:lang="lat">
+      <title xml:lang="lat">Clavis scripturae sacrae</title>
+      <edition urn="urn:cts:croala:flacius.clavis.croala_ohco2:">
+        <label xml:lang="lat">Latin. CroALa: Curavit Neven Jovanović.</label>        
+        <description xml:lang="lat">Latin. Hanc editionem electronicam curavit Neven Jovanović. CroALa 2012.  Modified and distributed under the terms of the CC BY-NC-SA 3.0 HR licence.</description>
+        <online/>
+      </edition>
+    </work>
+  </textgroup>
+  
+ 
+  
+  <!-- End CroALa Texts -->
 
 
   <textgroup urn="urn:cts:latinLit:phi0690:">
@@ -79,7 +132,12 @@
         
         <!-- END  entries created by SyntaxTokenizer -->
       </edition>
-
+      <translation urn="urn:cts:greekLit:tlg0007.tlg012.perrin:" xml:lang="eng">
+        <label xml:lang="eng">English. Perrin</label>
+        <description xml:lang="eng">English. Perrin, trans [1916].  Text from The Perseus Digital Library. Creative Commons Attribution 3.0 License</description>
+        <online/>
+      </translation>
+      
     </work>
   </textgroup>
 
@@ -128,7 +186,7 @@
     <groupname xml:lang="eng">Herodotus</groupname>
     <work urn="urn:cts:greekLit:tlg0016.tlg001:" xml:lang="grc">
       <title xml:lang="eng">Histories</title>
-      <edition urn="urn:cts:greekLit:tlg0016.tlg001.grc:">
+      <edition urn="urn:cts:greekLit:tlg0016.tlg001.loebgrc:">
         <label xml:lang="eng">A digital edition based on that of Ph.E. Legrand</label>
         <description xml:lang="eng">S. LaBerge and C. Blackwell, collated against Ph.E. Legrand, ed. He/rodote. Histoires (Paris: Les Belles Lettres) and C. Hude, ed., Herodoti Historiae (Oxford).</description>
         <online/>
@@ -141,7 +199,7 @@
         
         <!-- END  entries created by SyntaxTokenizer -->
       </edition>
-      <translation xml:lang="eng" urn="urn:cts:greekLit:tlg0016.tlg001.eng:">
+      <translation xml:lang="eng" urn="urn:cts:greekLit:tlg0016.tlg001.loebeng:">
         <label xml:lang="eng">G. C. Macaulay, third edition (1914).</label>
         <description xml:lang="eng">This text was prepared by Ross Scaife from the translation by G. C. Macaulay, third edition, printed in 1914, by MacMillan and Co., Limited, St. Martin's Street, London.</description>
         <online/>
