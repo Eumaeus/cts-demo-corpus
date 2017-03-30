@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/cts/CitationConfiguration.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- On-line configuration for inventory in testinventory2.xml -->
+<CitationConfiguration xmlns="http://chs.harvard.edu/xmlns/hocuspocus"  tiversion="6.0.0">
+
+
+    <online urn="urn:cts:greekLit:tlg0007.tlg012.ziegler:" type="xml"
+        docname="LifeofPericlesZiegler.xml">
+        <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+        <citationMapping>
+            <citation label="Chapter" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']">
+                <citation label="Section" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']/tei:p"
+                    xpath="/tei:seg[@n='?']"/>
+            </citation>
+        </citationMapping>
+    </online>
+    
+    
+    <online urn="urn:cts:greekLit:tlg0007.tlg012.perrin:" docname="2col/pericles-eng.txt" nodeformat="text" type="2col">
+        <citationScheme>
+            <citation label="Section">
+                <citation label="Subsection"/>
+            </citation>
+        </citationScheme>
+    </online>
+    
+  
+  
+
+
+  
+   
+
+</CitationConfiguration>

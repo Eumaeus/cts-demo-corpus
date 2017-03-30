@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/cite/CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<collectionService xmlns="http://chs.harvard.edu/xmlns/cite"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0">
+    <!-- Extensions provide extra capabilities for special data types, e.g. images, geo-spatial data, or graphs -->
+    <extensions>
+        <extension abbr="cite:CiteImage" uri="http://chs.harvard.edu/cite/chsimg"/>
+        <extension abbr="cite:CiteCGS" uri="http://chs.harvard.edu/cite/cgs"/>
+        <extension abbr="cite:ORCA" uri="http://chs.harvard.edu/cite/orca"/>
+    </extensions>
+
+    
+    
+    <!-- ********************************* -->
+
+    <!-- IMAGE DATA FROM HMT Collections ********************   -->
+    
+
+    <citeCollection canonicalId="Image" label="Label" urn="urn:cite2:hmt:vaimg.v1:">
+        <namespaceMapping abbr="hmt" uri="http://www.homermultitext.org/datans"/>
+        <extendedBy extension="cite:CiteImage"/>
+        <dc:title xmlns="http://purl.org/dc/elements/1.1/">Images of the Venetus A MS</dc:title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">All images from the Homer Multitext project's photography of the Venetus A manuscript.</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/"> Photography of the Venetus A manuscript by the Homer Multitext project.</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source type="file" value="vaimgs.csv"/>
+
+        <citeProperty name="Image" label="Image URN" type="cite2urn"/>
+        <citeProperty name="Label" label="Caption" type="string"/>
+        <citeProperty name="Rights" label="Rights" type="string"> </citeProperty>
+
+    </citeCollection>
+
+<!-- Page ROIs for Venetus A (has UniversalValue property, some indexed properties) -->
+    <!-- PageZone,Folio,ImageRoI,"Label" -->
+    
+    <citeCollection canonicalId="PageZone" label="Label" urn="urn:cite2:hmt:pageroi.v1:">
+        <namespaceMapping abbr="hmt" uri="http://www.homermultitext.org/datans"/>
+        <dc:title xmlns="http://purl.org/dc/elements/1.1/">ImageROIs for folios of the Venetus A MS</dc:title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">All images from the Homer Multitext project's photography of the Venetus A manuscript.</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/"> Photography of the Venetus A manuscript by the Homer Multitext project.</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source type="file" value="pageRois-abbrev.csv"/>
+        
+        <citeProperty name="PageZone" label="A region of interest on an image" type="cite2urn"></citeProperty>
+        <citeProperty name="Folio" label="MS Folio" type="cite2urn"></citeProperty>
+        <citeProperty name="ImageRoI" label="Image ROI" type="cite2urn">
+            <indexRelation rdfAbbr="hmt:illustrates" rdfFull="http://www.homermultitext.org/datans/illustrates" inverseAbbr="hmt:illustratedBy" inverseFull="http://www.homermultitext.org/datans/illustratedBy"/>
+        </citeProperty>
+        <citeProperty name="Codex" label="Codex" type="cite2urn" universalValue="urn:cite2:hmt:codices.v1:msA"></citeProperty>
+        <citeProperty name="Label" label="Label" type="string"></citeProperty>
+    </citeCollection>
+    
+    
+    
+    
+    
+    <!-- Aristarchan Critical Signs on the Venetus A-->
+    <!-- OccurrrenceUrn	Sequence	CriticalSign	TextPassage -->
+    <citeCollection canonicalId="OccurrenceUrn" label="Label" urn="urn:cite2:hmt:venAsign.v1:">
+        <namespaceMapping abbr="hmt" uri="http://www.homermultitext.org/datans"/>
+        
+        <dc:title xmlns="http://purl.org/dc/elements/1.1/">Aristarchan Critical Signs on the Venetus A </dc:title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">All images from the Homer Multitext project's photography of the Venetus A manuscript.</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/"> Photography of the Venetus A manuscript by the Homer Multitext project. Includes 'v1' and 'v2' versions of each object, for testing CITE Collections.</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License, http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        
+        <orderedBy property="Sequence"/>
+        <source type="file" value="venAsigns.tsv"/>
+       
+        <citeProperty name="OccurrenceUrn" label="The URN for this occurrence of a critical sign" type="cite2urn"></citeProperty>
+        <citeProperty name="Label" label="Label" type="string"/>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="CriticalSign" label="A URN identifying the kind of critical sign" type="cite2urn"></citeProperty>
+        <citeProperty name="TextPassage" label="The Iliadic passage that the sign marks." type="ctsurn">
+            <indexRelation rdfAbbr="hmt:commentsOn" rdfFull="http://www.homermultitext.org/datans/commentsOn" inverseAbbr="hmt:commentedOnBy" inverseFull="http://www.homermultitext.org/datanscommentedOnBy"/>
+        </citeProperty>
+        
+        
+    </citeCollection>
+    
+ 
+    
+
+</collectionService>

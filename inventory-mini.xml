@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/cts/TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TextInventory tiid="hmt" tiversion="6.0.0" xmlns="http://chs.harvard.edu/xmlns/cts"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <ctsnamespace abbr="greekLit" ns="http://chs.harvard.edu/ctsns/greekLit">
+    <description xml:lang="eng"> The &quot;First Thousand Years of Greek&quot; project's inventory
+      of Greek texts. </description>
+  </ctsnamespace>
+  <ctsnamespace abbr="latinLit" ns="http://perseus.org/namespaces/cts/latinLit">
+    <description xml:lang="eng">Latin texts hosted by the Perseus Digital Library</description>
+  </ctsnamespace>
+  <ctsnamespace abbr="croala" ns="http://www.ffzg.unizg.hr/klafil/croala">
+    <description xml:lang="lat">Croatiae auctores Latini (CroALa) Collectio electronica</description>
+  </ctsnamespace>
+  
+ 
+
+  <textgroup urn="urn:cts:greekLit:tlg0007:">
+    <groupname xml:lang="eng">Plutarch</groupname>
+    <work urn="urn:cts:greekLit:tlg0007.tlg012:" xml:lang="grc">
+      <title xml:lang="eng">Pericles</title>
+
+      <edition urn="urn:cts:greekLit:tlg0007.tlg012.ziegler:">
+        <label xml:lang="eng">Ziegler, ed.</label>
+        <description xml:lang="eng">Ziegler, ed.</description>
+        <online/>
+      </edition>
+      
+      <translation urn="urn:cts:greekLit:tlg0007.tlg012.perrin:" xml:lang="eng">
+        <label xml:lang="eng">English. Perrin</label>
+        <description xml:lang="eng">English. Perrin, trans [1916].  Text from The Perseus Digital Library. Creative Commons Attribution 3.0 License</description>
+        <online/>
+      </translation>
+
+    </work>
+  </textgroup>
+
+  
+ 
+
+</TextInventory>

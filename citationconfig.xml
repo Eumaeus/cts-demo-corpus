@@ -67,7 +67,7 @@
         </citationScheme>
     </online>
     
-    <online urn="urn:cts:croala:kunicr.ilias.croala_ohco2:" docname="2col/Kunićilias" nodeformat="text" type="2col">
+    <online urn="urn:cts:croala:kunicr.ilias.croala_ohco2:" docname="2col/Kunićilias.txt" nodeformat="text" type="2col">
         <citationScheme>
             <citation label="Book">
                 <citation label="Line"></citation>
@@ -134,7 +134,7 @@
         </citationMapping>
     </online>
     
-    <online urn="urn:cts:greekLit:tlg0007.tlg012.ziegler.syntaxToken:" type="2col" docname="CTS2Col-SynTokExemplar-greekLit_tlg0007-tlg012-ziegler.txt" nodeformat="text">
+    <online urn="urn:cts:greekLit:tlg0007.tlg012.ziegler.syntaxToken:" type="2col" docname="2col/CTS2Col-SynTokExemplar-greekLit_tlg0007-tlg012-ziegler.txt" nodeformat="text">
         <citationScheme>
             <citation label="Chapter">
                 <citation label="Section">
@@ -183,7 +183,7 @@
         </citationMapping>
     </online>
  
-    <online urn="urn:cts:greekLit:tlg0012.tlg001.fuPers.syntaxToken:" type="2col" docname="CTS2Col-SynTokExemplar-greekLit_tlg0012-tlg001-fuPers.txt" nodeformat="text">
+    <online urn="urn:cts:greekLit:tlg0012.tlg001.fuPers.syntaxToken:" type="2col" docname="2col/CTS2Col-SynTokExemplar-greekLit_tlg0012-tlg001-fuPers.txt" nodeformat="text">
         <citationScheme>
             <citation label="Book"><citation label="Line"><citation label="Token"></citation></citation></citation>
         </citationScheme>
@@ -226,7 +226,7 @@
         </citationMapping>
     </online> 
     
-    <online urn="urn:cts:greekLit:tlg0016.tlg001.grc.syntaxToken:" type="2col" docname="CTS2Col-SynTokExemplar-greekLit_tlg0016-tlg001-grc.txt" nodeformat="text">
+    <online urn="urn:cts:greekLit:tlg0016.tlg001.grc.syntaxToken:" type="2col" docname="2col/CTS2Col-SynTokExemplar-greekLit_tlg0016-tlg001-grc.txt" nodeformat="text">
         <citationScheme>
            <citation label="Book"><citation label="Chapter"><citation label="Token"></citation></citation></citation>
         </citationScheme>
