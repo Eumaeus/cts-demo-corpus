@@ -61,8 +61,53 @@
   
  
   
+  
   <!-- End CroALa Texts -->
+  
+  <!-- Metrical Summaries -->
 
+  <textgroup urn="urn:cts:greekLit:tlg7000:">
+   <groupname xml:lang="eng">Greek Anthology</groupname>
+    <work urn="urn:cts:greekLit:tlg7000.tlg001:" xml:lang="grc">
+     <title xml:lang="eng">Anthology</title>
+      <edition urn="urn:cts:greekLit:tlg7000.tlg001.msA:">
+        <label xml:lang="eng">Argumenta Iliados.</label>
+        <description xml:lang="eng">Greek. Argumenta Iliados. Venetus A (Marcianus 822). Homer Multitext. CC 3.0.</description>
+        <online/>
+      </edition>
+      <translation urn="urn:cts:greekLit:tlg7000.tlg001.msAeng:" xml:lang="eng">
+        <label xml:lang="eng">Eng. Argumenta Iliados.</label>
+        <description xml:lang="eng">Eng. Argumenta Iliados. Dué and Blackwell, trans. from MS. Venetus A (Marcianus 822). Homer Multitext. CC 3.0.</description>
+      </translation>
+      <edition urn="urn:cts:greekLit:tlg7000.tlg001.kunic:">
+        <label xml:lang="eng">Latin. Argumenta Iliados. Kunić, Rajmund, c. 1776.</label>
+        <description xml:lang="lat">Latin. Argumenta Iliados. Kunić, Rajmund, c. 1776. Hanc editionem electronicam curavit Neven Jovanović, CroALa 2013. Modified and distributed under the terms of the CC BY-NC-SA 3.0 HR licence.</description>
+      </edition>
+      <edition urn="urn:cts:greekLit:tlg7000.tlg001.o112:">
+        <label xml:lang="eng">Argumenta Iliados.</label>
+        <description xml:lang="eng">Greek. Argumenta Iliados. MS. Escorial Ω 1.12. Homer Multitext. CC 3.0.</description>
+        <online/>
+      </edition>
+      <translation urn="urn:cts:greekLit:tlg7000.tlg001.o112eng:" xml:lang="eng">
+        <label xml:lang="eng">Eng. Argumenta Iliados.</label>
+        <description xml:lang="eng">Eng. Argumenta Iliados. K. Phillips, trans. from MS. Escorial Ω 1.12. Homer Multitext. CC 3.0.</description>
+        <online/>
+      </translation>
+      <edition urn="urn:cts:greekLit:tlg7000.tlg001.u11:">
+        <label xml:lang="eng">Argumenta Iliados.</label>
+        <description xml:lang="eng">Greek. Argumenta Iliados. MS. Escorial Υ 1.1. Homer Multitext. CC 3.0.</description>
+        <online/>
+      </edition>
+      <translation urn="urn:cts:greekLit:tlg7000.tlg001.u11eng:" xml:lang="eng">
+        <label xml:lang="eng">Eng. Argumenta Iliados.</label>
+        <description xml:lang="eng">Eng. Argumenta Iliados. K. Phillips, trans. from MS. Escorial Υ 1.1. Homer Multitext. CC 3.0.</description>
+        <online/>
+      </translation>
+    </work>
+ </textgroup>
+  
+  <!-- end metrical summaries -->
+  
 
   <textgroup urn="urn:cts:latinLit:phi0690:">
     <groupname xml:lang="eng">P. Virgilius Maro</groupname>
@@ -167,11 +212,11 @@
         
       </edition>
 
-      <translation urn="urn:cts:greekLit:tlg0012.tlg001.persEng:" xml:lang="eng">
+     <!-- <translation urn="urn:cts:greekLit:tlg0012.tlg001.persEng:" xml:lang="eng">
         <label xml:lang="eng">Perseus Text, based on Butler's Translation</label>
         <description xml:lang="eng">An edition based on the Perseus XML text.</description>
         <online/>
-      </translation>
+      </translation>-->
 
       <translation urn="urn:cts:greekLit:tlg0012.tlg001.fuEng:" xml:lang="eng">
         <label xml:lang="eng">Furman/Perseus Text, based on Butler's Translation, aligned to Allen's canonical citations.</label>

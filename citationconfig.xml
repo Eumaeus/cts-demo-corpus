@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="schemas/cts/CitationConfiguration.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!-- On-line configuration for inventory in testinventory2.xml -->
 <CitationConfiguration xmlns="http://chs.harvard.edu/xmlns/hocuspocus"  tiversion="6.0.0">
 
@@ -121,6 +120,80 @@
             </citation>
         </citationScheme>
     </online>
+    
+    <!-- Metrical Summaries -->
+        
+    <online urn="urn:cts:greekLit:tlg7000.tlg001.msA:" docname="2col/argIliados.txt" nodeformat="text" type="2col">
+        <citationScheme>
+            <citation label="Book">
+                <citation label="Poem">
+                    <citation label="Line"/>
+                </citation>
+            </citation>
+        </citationScheme>    
+    </online>
+    
+    <online urn="urn:cts:greekLit:tlg7000.tlg001.msAeng:" docname="2col/argIliados.txt" nodeformat="text" type="2col">
+        <citationScheme>
+            <citation label="Book">
+                <citation label="Poem">
+                    <citation label="Line"/>
+                </citation>
+            </citation>
+        </citationScheme>    
+    </online>
+    
+    <online urn="urn:cts:greekLit:tlg7000.tlg001.kunic:" docname="2col/argIliados.txt" nodeformat="text" type="2col">
+        <citationScheme>
+            <citation label="Book">
+                <citation label="Poem">
+                    <citation label="Line"/>
+                </citation>
+            </citation>
+        </citationScheme>    
+    </online>
+    
+    <online urn="urn:cts:greekLit:tlg7000.tlg001.o112:" docname="2col/argIliados.txt" nodeformat="text" type="2col">
+        <citationScheme>
+            <citation label="Book">
+                <citation label="Poem">
+                    <citation label="Line"/>
+                </citation>
+            </citation>
+        </citationScheme>    
+    </online>
+    
+    <online urn="urn:cts:greekLit:tlg7000.tlg001.o112eng:" docname="2col/argIliados.txt" nodeformat="text" type="2col">
+        <citationScheme>
+            <citation label="Book">
+                <citation label="Poem">
+                    <citation label="Line"/>
+                </citation>
+            </citation>
+        </citationScheme>    
+    </online>
+    
+    <online urn="urn:cts:greekLit:tlg7000.tlg001.u11:" docname="2col/argIliados.txt" nodeformat="text" type="2col">
+        <citationScheme>
+            <citation label="Book">
+                <citation label="Poem">
+                    <citation label="Line"/>
+                </citation>
+            </citation>
+        </citationScheme>    
+    </online>
+    
+    <online urn="urn:cts:greekLit:tlg7000.tlg001.u11eng:" docname="2col/argIliados.txt" nodeformat="text" type="2col">
+        <citationScheme>
+            <citation label="Book">
+                <citation label="Poem">
+                    <citation label="Line"/>
+                </citation>
+            </citation>
+        </citationScheme>    
+    </online>
+    
+    <!-- End Metrical Summaries -->
 
       <online urn="urn:cts:greekLit:tlg0007.tlg012.ziegler:" type="xml"
         docname="LifeofPericlesZiegler.xml">
@@ -193,7 +266,7 @@
   
     
   
-    <online urn="urn:cts:greekLit:tlg0012.tlg001.persEng:" type="xml" docname="Iliad-Butler.xml">
+    <!--<online urn="urn:cts:greekLit:tlg0012.tlg001.persEng:" type="xml" docname="Iliad-Butler.xml">
         <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
         <citationMapping>
             <citation label="Book" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div1[@n='?']">
@@ -201,7 +274,7 @@
                     xpath="/tei:p[@n='?']"/>
             </citation>
         </citationMapping>
-    </online>
+    </online>-->
     
     <online urn="urn:cts:latinLit:phi0690.phi003.fuPers:" type="xml" docname="Aeneid-Lat.xml">
         
