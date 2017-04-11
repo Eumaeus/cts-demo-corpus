@@ -205,11 +205,29 @@
         <!-- END  entries created by SyntaxTokenizer -->
       </edition>
 
-      <edition urn="urn:cts:greekLit:tlg0012.tlg001.msAtest:">
+      <!--<edition urn="urn:cts:greekLit:tlg0012.tlg001.msAtest:">
         <label xml:lang="eng">Venetus A 24.1-24.15. Demonstrationg thoughts on graphs.</label>
         <description xml:lang="eng">Edited by Gunner Hedden and Marloes Velthuisen</description>
         <online/>
         
+      </edition>-->
+      
+      <translation
+        urn="urn:cts:greekLit:tlg0012.tlg001.hmt01:"
+        xml:lang="eng">
+        <label
+          xml:lang="eng">English translation of Iliad 10 by Casey Dué and Mary Ebbott</label>
+        <description
+          xml:lang="eng">New line-by-line translation of Iliad 10</description>
+        <online/>
+      </translation>
+      <edition
+        urn="urn:cts:greekLit:tlg0012.tlg001.msA:">
+        <label
+          xml:lang="eng"> Venetus A </label>
+        <description
+          xml:lang="eng"> Iliad text of the Venetus A manuscript, Marciana 454 (=822). </description>
+        <online/>
       </edition>
 
      <!-- <translation urn="urn:cts:greekLit:tlg0012.tlg001.persEng:" xml:lang="eng">
@@ -254,7 +272,7 @@
     </work>
   </textgroup>
 
-  <textgroup urn="urn:cts:greekLit:tlg5026:">
+  <!--<textgroup urn="urn:cts:greekLit:tlg5026:">
     <groupname xml:lang="eng">Scholia to the Iliad</groupname>
 
     <work urn="urn:cts:greekLit:tlg5026.msA:" xml:lang="grc">
@@ -269,6 +287,57 @@
         <description xml:lang="eng">Main marginal scholia of the Venetus A manuscript, Marciana 454  (=822). English translation.</description>
         <online/>
       </translation>
+    </work>
+  </textgroup>-->
+  
+  <textgroup    urn="urn:cts:greekLit:tlg5026:">
+    <groupname      xml:lang="eng"> Scholia to the Iliad</groupname>
+    <work      urn="urn:cts:greekLit:tlg5026.msA:"      xml:lang="grc">
+      <title        xml:lang="eng"> Main marginal scholia</title>
+      <edition        urn="urn:cts:greekLit:tlg5026.msA.hmt:">
+        <label          xml:lang="eng">msA</label>
+        <description          xml:lang="eng">Main marginal scholia of the Venetus A manuscript, Marciana 454          (=822).</description>
+        <online/>
+      </edition>
+    </work>
+    <work      urn="urn:cts:greekLit:tlg5026.msAext:"      xml:lang="grc">
+      <title        xml:lang="eng"> Exterior scholia</title>
+      <edition        urn="urn:cts:greekLit:tlg5026.msAext.hmt:">
+        <label          xml:lang="eng">msAext</label>
+        <description          xml:lang="eng">Exterior scholia of the Venetus A manuscript, Marciana 454          (=822).</description>
+        <online/>
+      </edition>
+    </work>
+    <work      urn="urn:cts:greekLit:tlg5026.msAil:"      xml:lang="grc">
+      <title        xml:lang="eng"> Interlinear scholia</title>
+      <edition        urn="urn:cts:greekLit:tlg5026.msAil.hmt:">
+        <label          xml:lang="eng">msAil</label>
+        <description          xml:lang="eng">Interlinear scholia of the Venetus A manuscript, Marciana 454          (=822).</description>
+      </edition>
+    </work>
+    <work      urn="urn:cts:greekLit:tlg5026.msAim:"      xml:lang="grc">
+      <title        xml:lang="eng"> Intermarginal scholia</title>
+      <edition        urn="urn:cts:greekLit:tlg5026.msAim.hmt:">
+        <label          xml:lang="eng">msAim</label>
+        <description          xml:lang="eng">Intermarginal scholia (between main marginal scholia and text) of the          Venetus A manuscript, Marciana 454 (=822).</description>
+        <online/>
+      </edition>
+    </work>
+    <work      urn="urn:cts:greekLit:tlg5026.msAint:"      xml:lang="grc">
+      <title        xml:lang="eng"> Interior scholia</title>
+      <edition        urn="urn:cts:greekLit:tlg5026.msAint.hmt:">
+        <label          xml:lang="eng">msAint</label>
+        <description          xml:lang="eng">Interior (gutter) scholia of the Venetus A manuscript, Marciana 454          (=822).</description>
+        <online/>
+      </edition>
+    </work>
+    <work      urn="urn:cts:greekLit:tlg5026.msAlater:"      xml:lang="grc">
+      <title        xml:lang="eng"> Later main scholia</title>
+      <edition        urn="urn:cts:greekLit:tlg5026.msAlater.hmt:">
+        <label          xml:lang="eng">msAlater</label>
+        <description          xml:lang="eng">Scholia in a second later hand from the main marginal area of Venetus A          manuscript, Marciana 454 (=822).</description>
+        <online/>
+      </edition>
     </work>
   </textgroup>
 

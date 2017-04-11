@@ -10,120 +10,7 @@
     </extensions>
 
     
-    <!-- *********************************
-        
-       Collections for Graph Demo!
-       
-    -->
-
-    <citeCollection canonicalId="AnalysisRecord" label="TextDeformation" urn="urn:cite2:fufolio:cgsDemo.v1:">
-        <namespaceMapping abbr="fufolio" uri="http://folio.furman.edu/datans"/>
-        <dc:title xmlns="http://purl.org/dc/elements/1.1/">Syntactic Analysis of Iliad 24.3-24.11</dc:title>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
-        <coverage xmlns="http://purl.org/dc/elements/1.1/">A CITE/ORCA tokenization and analysis of Iliad 24.3-24.11.</coverage>
-        <description xmlns="http://purl.org/dc/elements/1.1/">A CITE/ORCA tokenization and analysis of Iliad 24.3-24.11.</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License, http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <orderedBy property="Sequence"/>
-        <source type="file" value="orca-syntax.tsv"/>
-        <citeProperty label="Analysis Record" type="cite2urn" name="AnalysisRecord"></citeProperty>
-        <citeProperty label="Analyzed Text" type="ctsurn" name="AnalyzedText"></citeProperty>
-        <citeProperty label="Sequence" name="Sequence" type="number"/>
-        <citeProperty label="Analysis" type="cite2urn" name="Analysis"></citeProperty>
-        <citeProperty label="Text Deformation" type="string" name="TextDeformation"></citeProperty>
-        <citeProperty label="Exemplar URN" name="ExemplarUrn" type="ctsurn"></citeProperty>
-    </citeCollection>
-
-    <citeCollection canonicalId="urn" label="label" urn="urn:cite2:fufolio:partsOfSpeech.v1:">
-        <namespaceMapping abbr="fufolio" uri="http://folio.furman.edu/datans"/>
-        <dc:title xmlns="http://purl.org/dc/elements/1.1/">Parts of Speech</dc:title>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
-        <coverage xmlns="http://purl.org/dc/elements/1.1/">Parts of speech documented in syntactic analysis of the Iliad of the Venetus A.</coverage>
-        <description xmlns="http://purl.org/dc/elements/1.1/">Parts of speech documented in syntactic analysis of the Iliad of the Venetus A.</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="partsOfSpeech.tsv"/>
-        <citeProperty label="urn" type="cite2urn" name="urn"></citeProperty>
-        <citeProperty label="part of speech" type="string" name="postag"></citeProperty>
-        <citeProperty label="label" type="string" name="label"></citeProperty>
-    </citeCollection>
-    
-    <citeCollection canonicalId="urn" label="label" urn="urn:cite2:fufolio:syntaxRelations.v1:">
-        <namespaceMapping abbr="fufolio" uri="http://folio.furman.edu/datans"/>
-        <dc:title xmlns="http://purl.org/dc/elements/1.1/">Syntactic Relations</dc:title>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
-        <coverage xmlns="http://purl.org/dc/elements/1.1/">Attested syntactic relations in the Iliad of the Venetus A.</coverage>
-        <description xmlns="http://purl.org/dc/elements/1.1/">Attested syntactic relations in the Iliad of the Venetus A.</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available  under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License, http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="syntaxRelations.tsv"/>
-        <citeProperty label="urn" type="cite2urn" name="urn"></citeProperty>
-        <citeProperty label="label" type="string" name="label"></citeProperty>
-    </citeCollection>
-    
-    <citeCollection canonicalId="urn" label="label" urn="urn:cite2:fufolio:hmtGraph.v1:">
-        <namespaceMapping abbr="fufolio" uri="http://folio.furman.edu/datans"/>
-        <extendedBy extension="cite:CiteCGS"/>
-        <dc:title xmlns="http://purl.org/dc/elements/1.1/">Syntactic Graphs</dc:title>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
-        <coverage xmlns="http://purl.org/dc/elements/1.1/">Graphs of syntax from Greek texts.</coverage>
-        <description xmlns="http://purl.org/dc/elements/1.1/">Graphs of syntax from Greek texts.</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License, http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="syntax-graphs.tsv"/>
-        <citeProperty label="urn" type="cite2urn" name="urn"></citeProperty>
-        <citeProperty label="label" type="string" name="label"></citeProperty>
-        <citeProperty label="description" type="string" name="description"></citeProperty>
-    </citeCollection>
-    
-    
-    <citeCollection canonicalId="edgeUrn" label="label" urn="urn:cite2:fufolio:edges.v1:">
-        <namespaceMapping abbr="fufolio" uri="http://folio.furman.edu/datans"/>
-        <extendedBy extension="cite:CiteCGS"/>
-        <dc:title xmlns="http://purl.org/dc/elements/1.1/">Syntactic Graphs</dc:title>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
-        <coverage xmlns="http://purl.org/dc/elements/1.1/">Edges for graphs of syntax from the Homer Multitext Project.</coverage>
-        <description xmlns="http://purl.org/dc/elements/1.1/">Edges for graphs of syntax from the Homer Multitext Project.</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License, http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="edges_all.tsv"/>
-        <citeProperty label="Edge Urn" type="cite2urn" name="edgeUrn"></citeProperty>
-        <citeProperty label="Graph Urn" type="cite2urn" name="graphUrn"></citeProperty>
-        <citeProperty label="Source Urn" type="cite2urn" name="sourceUrn"></citeProperty>
-        <citeProperty label="Relation Urn" type="cite2urn" name="relationUrn"></citeProperty>
-        <citeProperty label="Target Urn" type="cite2urn" name="targetUrn"></citeProperty>
-        <citeProperty label="label" type="string" name="label"></citeProperty>
-        
-    </citeCollection>
-    
-    
-    <citeCollection canonicalId="vertexUrn" label="label" urn="urn:cite2:fufolio:vertices.v1:">
-        <namespaceMapping abbr="fufolio" uri="http://folio.furman.edu/datans"/>
-        <dc:title xmlns="http://purl.org/dc/elements/1.1/">Syntactic Graph Vertices</dc:title>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
-        <coverage xmlns="http://purl.org/dc/elements/1.1/">Vertices used in syntactic graphs.</coverage>
-        <description xmlns="http://purl.org/dc/elements/1.1/">Vertices used in syntactic graphs.</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License, http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="vertices_all.tsv"/>
-        <citeProperty label="vertexUrn" type="cite2urn" name="vertexUrn"></citeProperty>
-        <citeProperty label="label" type="string" name="label"></citeProperty>
-        <citeProperty label="orcaUrn" type="cite2urn" name="orcaUrn"></citeProperty>
-        <citeProperty label="graphUrn" type="cite2urn" name="graphUrn"></citeProperty>
-        <citeProperty label="sequence" type="number" name="sequence"></citeProperty>
-        <citeProperty label="part of speech URN" type="cite2urn" name="posUrn"></citeProperty>
-    </citeCollection>
-    
-    
-    <citeCollection canonicalId="urn" label="label" urn="urn:cite2:hmt:dseGraph.v1:">
-        <namespaceMapping abbr="hmt" uri="http://www.homermultitext.org/datans"/>
-        <extendedBy extension="cite:CiteCGS"/>
-        <dc:title xmlns="http://purl.org/dc/elements/1.1/">DSE Graphs</dc:title>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
-        <coverage xmlns="http://purl.org/dc/elements/1.1/">Graphs of Image-based digital scholarly editions of texts and commentaries.</coverage>
-        <description xmlns="http://purl.org/dc/elements/1.1/">Graphs of Image-based digital scholarly editions of texts and commentaries</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="dse-graphs.tsv"/>
-        <citeProperty label="urn" type="cite2urn" name="urn"></citeProperty>
-        <citeProperty label="label" type="string" name="label"></citeProperty>
-        <citeProperty label="description" type="string" name="description"></citeProperty>
-    </citeCollection>
-    
-   
+  
     
 
    
@@ -161,7 +48,7 @@
         <coverage xmlns="http://purl.org/dc/elements/1.1/">All images from the Homer Multitext project's photography of the Venetus A manuscript.</coverage>
         <description xmlns="http://purl.org/dc/elements/1.1/"> Photography of the Venetus A manuscript by the Homer Multitext project.</description>
         <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="pageRois-abbrev.csv"/>
+        <source type="file" value="pageRois.csv"/>
         
         <citeProperty name="PageZone" label="A region of interest on an image" type="cite2urn"></citeProperty>
         <citeProperty name="Folio" label="MS Folio" type="cite2urn"></citeProperty>
@@ -202,31 +89,7 @@
         
     </citeCollection>
     
-    <!-- Folios of the Venetus A. Partial collection for testing versioned collections. -->
-    <!-- Ten folio sides, in two versions with different sequencing -->
-    <!-- Siglum	Sequence	URN	RV	Label	CodexURN -->
-    <citeCollection canonicalId="URN" label="Label" urn="urn:cite2:hmt:msA.v1:">
-        <namespaceMapping abbr="hmt" uri="http://www.homermultitext.org/datans"/>
-        
-        <dc:title xmlns="http://purl.org/dc/elements/1.1/">Folios of the Venetus A Manuscript</dc:title>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Christopher Blackwell</creator>
-        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
-       
-        <description xmlns="http://purl.org/dc/elements/1.1/">Folios of the Venetus A manuscript.</description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License, http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        
-        <orderedBy property="Sequence"/>
-        <source type="file" value="venetusA-v1.tsv"/>
-        
-        <citeProperty name="URN" label="The URN for this folio" type="cite2urn"></citeProperty>
-        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
-        <citeProperty name="Siglum" label="Manuscript Siglum" type="string"></citeProperty>
-        <citeProperty name="Label" label="Label" type="string"/>
-        <citeProperty name="CodexURN" label="Codex" type="cite2urn"/>
-        <citeProperty name="RV" label="Recto or Verso" type="string"></citeProperty>
-        
-        
-    </citeCollection>
+  
     
     <!-- Categorized Token Collections -->
    
