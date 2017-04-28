@@ -15,6 +15,62 @@
   <ctsnamespace abbr="botcar" ns="folio.furman.edu/ctsns">
     <description xml:lang="eng">Botanica Caroliniana.</description>
   </ctsnamespace>
+  <ctsnamespace abbr="fufolio" ns="http://folio.furman.edu/fufolio">
+    <description xml:lang="lat">Miscellaneous texts for teaching and research. Furman University</description>
+  </ctsnamespace>
+  
+  <!-- Jane Austen -->
+  <textgroup urn="urn:cts:fufolio:austen:">
+    <groupname xml:lang="eng">Jane Austen</groupname>
+    <work urn="urn:cts:fufolio:austen.pp:" xml:lang="eng">
+      <title xml:lang="eng">Pride and Prejudice</title>
+      <edition urn="urn:cts:fufolio:austen.pp.fufolio:">
+        <label xml:lang="eng">Public Domain edition</label>
+        <description xml:lang="eng">Public Domain edition</description>
+        <online/>
+      </edition>
+    </work>
+    <work urn="urn:cts:fufolio:austen.emma:" xml:lang="eng">
+      <title xml:lang="eng">Emma</title>
+      <edition urn="urn:cts:fufolio:austen.emma.fufolio:">
+        <label xml:lang="eng">Public Domain edition</label>
+        <description xml:lang="eng">Public Domain edition</description>
+        <online/>
+      </edition>
+    </work>
+    <work urn="urn:cts:fufolio:mp.emma:" xml:lang="eng">
+      <title xml:lang="eng">Mansfield Park</title>
+      <edition urn="urn:cts:fufolio:austen.mp.fufolio:">
+        <label xml:lang="eng">Public Domain edition</label>
+        <description xml:lang="eng">Public Domain edition</description>
+        <online/>
+      </edition>
+    </work>
+    <work urn="urn:cts:fufolio:na.emma:" xml:lang="eng">
+      <title xml:lang="eng">Mansfield Park</title>
+      <edition urn="urn:cts:fufolio:austen.na.fufolio:">
+        <label xml:lang="eng">Public Domain edition</label>
+        <description xml:lang="eng">Public Domain edition</description>
+        <online/>
+      </edition>
+    </work>
+    <work urn="urn:cts:fufolio:sands.emma:" xml:lang="eng">
+      <title xml:lang="eng">Sense and Sensibility</title>
+      <edition urn="urn:cts:fufolio:austen.sands.fufolio:">
+        <label xml:lang="eng">Public Domain edition</label>
+        <description xml:lang="eng">Public Domain edition</description>
+        <online/>
+      </edition>
+    </work>
+    <work urn="urn:cts:fufolio:pers.emma:" xml:lang="eng">
+      <title xml:lang="eng">Persuasion</title>
+      <edition urn="urn:cts:fufolio:austen.pers.fufolio:">
+        <label xml:lang="eng">Public Domain edition</label>
+        <description xml:lang="eng">Public Domain edition</description>
+        <online/>
+      </edition>
+    </work>
+  </textgroup>
   
   <!-- BotCar Texts -->
   <textgroup urn="urn:cts:botcar:lawson:">

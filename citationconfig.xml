@@ -3,6 +3,29 @@
 <!-- On-line configuration for inventory in testinventory2.xml -->
 <CitationConfiguration xmlns="http://chs.harvard.edu/xmlns/hocuspocus"  tiversion="6.0.0">
 
+    <online urn="urn:cts:fufolio:austen.pp.fufolio:" type="markdown"
+        docname="md/PrideAndPrejudice.md">
+    </online>
+    
+    <online urn="urn:cts:fufolio:austen.emma.fufolio:" type="markdown"
+        docname="md/Emma.md">
+    </online>
+    
+    <online urn="urn:cts:fufolio:austen.mp.fufolio:" type="markdown"
+        docname="md/MP.md">
+    </online>
+    
+    <online urn="urn:cts:fufolio:austen.na.fufolio:" type="markdown"
+        docname="md/NA.md">
+    </online>
+    
+    <online urn="urn:cts:fufolio:austen.sands.fufolio:" type="markdown"
+        docname="md/SandS.md">
+    </online>
+    
+    <online urn="urn:cts:fufolio:austen.pers.fufolio:" type="markdown"
+        docname="md/Persuasion.md">
+    </online>
 
     <online urn="urn:cts:botcar:lawson.voyage.1709:" type="xml" docname="Lawson.xml">
         
